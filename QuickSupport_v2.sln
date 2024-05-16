@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34301.259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSupport_v2", "QuickSupport_v2\QuickSupport_v2.csproj", "{44376847-6FD3-43D9-80C4-A40D80B70F5D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "QuickSupportSetup", "QuickSupportSetup\QuickSupportSetup.vdproj", "{2DDFB270-15AF-4D02-98E8-456A5133FF53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44376847-6FD3-43D9-80C4-A40D80B70F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44376847-6FD3-43D9-80C4-A40D80B70F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44376847-6FD3-43D9-80C4-A40D80B70F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44376847-6FD3-43D9-80C4-A40D80B70F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDFB270-15AF-4D02-98E8-456A5133FF53}.Debug|Any CPU.ActiveCfg = Debug
+		{2DDFB270-15AF-4D02-98E8-456A5133FF53}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {962AF499-22A9-449E-91D4-3106A7BD1377}
+	EndGlobalSection
+EndGlobal

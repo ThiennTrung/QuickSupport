@@ -1,0 +1,8 @@
+<FileList>
+  <File Reference="DevExpress.DataAccess.v22.2.dll">
+    <ToolboxItems UIFramework="WinForms" VSCategory="DX.22.2: Data &amp; Analytics">
+      <Item Type="DevExpress.DataAccess.Sql.SqlDataSource" />
+      <Item Type="DevExpress.DataAccess.Json.JsonDataSource" />
+    </ToolboxItems>
+  </File>
+</FileList>

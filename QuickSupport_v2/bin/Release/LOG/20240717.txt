@@ -1,0 +1,4 @@
+﻿2024-07-17 21:16:38,201 [1] ERROR QuickSupport_v2.Program - Sequence contains no elements
+2024-07-17 21:16:44,436 [1] ERROR QuickSupport_v2.Program - Sequence contains no elements
+2024-07-17 21:16:44,753 [1] ERROR QuickSupport_v2.Program - Sequence contains no elements
+2024-07-17 21:16:57,025 [1] ERROR QuickSupport_v2.Program - Sequence contains no elements

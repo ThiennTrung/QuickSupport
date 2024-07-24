@@ -1,0 +1,10 @@
+﻿2024-06-20 17:18:18,629 [1] ERROR QuickSupport_v2.Program - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-06-20 17:18:28,616 [1] ERROR QuickSupport_v2.Program - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-06-20 17:19:08,705 [1] ERROR QuickSupport_v2.Program - Cannot rename a sheet to the same name as existing sheet.
+2024-06-20 17:19:18,971 [1] ERROR QuickSupport_v2.Program - Cannot rename a sheet to the same name as existing sheet.
+2024-06-20 17:19:22,724 [1] ERROR QuickSupport_v2.Program - Cannot rename a sheet to the same name as existing sheet.
+2024-06-20 17:19:47,141 [1] ERROR QuickSupport_v2.Program - Cannot rename a sheet to the same name as existing sheet.
+2024-06-20 17:20:16,277 [1] ERROR QuickSupport_v2.Program - Cannot rename a sheet to the same name as existing sheet.
+2024-06-20 17:21:11,174 [1] ERROR QuickSupport_v2.Program - Cannot rename a sheet to the same name as existing sheet.

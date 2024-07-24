@@ -1,0 +1,8 @@
+﻿2024-03-03 15:37:06,910 [1] ERROR QuickSupport_v2.Program - Could not find a part of the path 'C:\Users\ADMIN\Desktop\JIRA\s\02 - URL.url'.
+2024-03-03 16:04:34,364 [1] ERROR QuickSupport_v2.Program - Object reference not set to an instance of an object.
+2024-03-03 16:08:18,041 [1] ERROR QuickSupport_v2.Program - Object reference not set to an instance of an object.
+2024-03-03 16:12:22,872 [1] ERROR QuickSupport_v2.Program - Length cannot be less than zero.
+Parameter name: length
+2024-03-03 16:12:33,006 [1] ERROR QuickSupport_v2.Program - Length cannot be less than zero.
+Parameter name: length
+2024-03-03 16:29:39,954 [1] ERROR QuickSupport_v2.Program - Object reference not set to an instance of an object.

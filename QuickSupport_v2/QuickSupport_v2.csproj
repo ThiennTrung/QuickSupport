@@ -138,7 +138,7 @@
       <HintPath>..\packages\DevExpress.TreeMap.22.2.3\lib\net452\DevExpress.XtraTreeMap.v22.2.dll</HintPath>
     </Reference>
     <Reference Include="FPT.Framework.Common">
-      <HintPath>E:\01.WORK\01.SOURCE\01.SOURCE_TRUNK\99.Build\Last\Winform\Debug\FPT.Framework.Common.dll</HintPath>
+      <HintPath>..\..\FPT.Framework.Common.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=2.0.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.15\lib\net45\log4net.dll</HintPath>

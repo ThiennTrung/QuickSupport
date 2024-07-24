@@ -7,14 +7,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="QuickSupport_v2.exe.manifest" size="29751">
+    <dependentAssembly dependencyType="install" codebase="QuickSupport_v2.exe.manifest" size="29058">
       <assemblyIdentity name="QuickSupport_v2.exe" version="1.0.0.19" publicKeyToken="0000000000000000" language="vi" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>e0Gp4OIIt8S1Xyr3DMuUI5magv/c51iItGC/58q7l/g=</dsig:DigestValue>
+        <dsig:DigestValue>SMhBX4IweaJHtGLvpKAjBaAYanUDqK9JFZG4kTPLr5Y=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -1,4 +1,5 @@
 ﻿using DevExpress.XtraEditors;
+using DevExpress.XtraEditors.Repository;
 using QuickSupport_v2.Model;
 using System;
 using System.Collections.Generic;
@@ -32,6 +33,13 @@ namespace QuickSupport_v2
 
             DataTable source = DbTool.DbTool.Query(connection, queryString, null);
             gridControl1.DataSource = source;
+            RepositoryItemMemoEdit riMemoEdit = new RepositoryItemMemoEdit();
+            riMemoEdit.WordWrap = true;
+            gridControl1.RepositoryItems.Add(riMemoEdit);
+            layoutView1.Columns["DIACHILIENLAC"].ColumnEdit = riMemoEdit;
+            layoutView1.Columns["DIACHITHUONGTRU"].ColumnEdit = riMemoEdit;
+            layoutView1.Columns["DIACHI"].ColumnEdit = riMemoEdit;
+
 
         }
     }

@@ -32,13 +32,13 @@ namespace QuickSupport_v2
             //param["TOATHUOC_ID"] = null;
 
             DataTable source = DbTool.DbTool.Query(connection, queryString, null);
-            gridControl1.DataSource = source;
+            gridControl2.DataSource = source;
             RepositoryItemMemoEdit riMemoEdit = new RepositoryItemMemoEdit();
             riMemoEdit.WordWrap = true;
-            gridControl1.RepositoryItems.Add(riMemoEdit);
-            layoutView1.Columns["DIACHILIENLAC"].ColumnEdit = riMemoEdit;
-            layoutView1.Columns["DIACHITHUONGTRU"].ColumnEdit = riMemoEdit;
-            layoutView1.Columns["DIACHI"].ColumnEdit = riMemoEdit;
+            gridControl2.RepositoryItems.Add(riMemoEdit);
+            layoutView2.Columns["DIACHILIENLAC"].ColumnEdit = riMemoEdit;
+            layoutView2.Columns["DIACHITHUONGTRU"].ColumnEdit = riMemoEdit;
+            layoutView2.Columns["DIACHI"].ColumnEdit = riMemoEdit;
 
 
         }

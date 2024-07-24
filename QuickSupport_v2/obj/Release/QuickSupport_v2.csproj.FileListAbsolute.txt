@@ -46,7 +46,6 @@ C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraL
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraPrinting.v22.2.dll
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraRichEdit.v22.2.dll
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraTreeMap.v22.2.dll
-C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\FPT.Framework.Common.dll
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\log4net.dll
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\Newtonsoft.Json.dll
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraTreeList.v22.2.dll
@@ -262,3 +261,10 @@ C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\obj\Release\QuickSupport
 C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\obj\Release\QuickSupport_v2.csproj.CopyComplete
 C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\obj\Release\QuickSupport_v2.exe
 C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\obj\Release\QuickSupport_v2.pdb
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\obj\Release\QuickSupport_v2.InfoBenhnhan.resources
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.Diagram.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraDiagram.v22.2.dll
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraVerticalGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.Diagram.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraDiagram.v22.2.xml
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraVerticalGrid.v22.2.xml

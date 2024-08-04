@@ -156,5 +156,10 @@ C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\obj\Debug\QuickSupport_v2.ap
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\obj\Debug\QuickSupport_v2.csproj.CopyComplete
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\obj\Debug\QuickSupport_v2.exe
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\obj\Debug\QuickSupport_v2.pdb
-C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Debug\FPT.Framework.Common.dll
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\obj\Debug\QuickSupport_v2.InfoBenhnhan.resources
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Debug\DevExpress.Diagram.v22.2.Core.dll
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Debug\DevExpress.XtraDiagram.v22.2.dll
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.dll
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Debug\DevExpress.Diagram.v22.2.Core.xml
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Debug\DevExpress.XtraDiagram.v22.2.xml
+C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.xml

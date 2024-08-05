@@ -89,8 +89,6 @@
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject26 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions23 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject27 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions24 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject28 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule3 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue2 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule4 = new DevExpress.XtraGrid.GridFormatRule();
@@ -123,10 +121,12 @@
             this.gridColumn48 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn51 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn50 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn44 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn86 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn89 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn90 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn93 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn82 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.navigationPane1 = new DevExpress.XtraBars.Navigation.NavigationPane();
             this.navigationPage1 = new DevExpress.XtraBars.Navigation.NavigationPage();
@@ -386,7 +386,6 @@
             this.gridColumn41 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn42 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn43 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn44 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn45 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn46 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn47 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -425,7 +424,6 @@
             this.gridColumn78 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn79 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn80 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn82 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn83 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn84 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn85 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -830,6 +828,18 @@
             this.gridColumn50.VisibleIndex = 32;
             this.gridColumn50.Width = 88;
             // 
+            // gridColumn44
+            // 
+            this.gridColumn44.Caption = "T_BNTT";
+            this.gridColumn44.FieldName = "T_BNTT";
+            this.gridColumn44.GroupFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.gridColumn44.Name = "gridColumn44";
+            this.gridColumn44.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, DevExpress.Data.SummaryMode.Mixed, "T_BNTT", "{0:#,0.####}")});
+            this.gridColumn44.Visible = true;
+            this.gridColumn44.VisibleIndex = 26;
+            this.gridColumn44.Width = 124;
+            // 
             // gridColumn86
             // 
             this.gridColumn86.Caption = "MA_BAC_SI";
@@ -865,6 +875,18 @@
             this.gridColumn93.Visible = true;
             this.gridColumn93.VisibleIndex = 37;
             this.gridColumn93.Width = 69;
+            // 
+            // gridColumn82
+            // 
+            this.gridColumn82.Caption = "T_BNTT";
+            this.gridColumn82.FieldName = "T_BNTT";
+            this.gridColumn82.GroupFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
+            this.gridColumn82.Name = "gridColumn82";
+            this.gridColumn82.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
+            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, DevExpress.Data.SummaryMode.Mixed, "T_BNTT", "{0:#,0.####}")});
+            this.gridColumn82.Visible = true;
+            this.gridColumn82.VisibleIndex = 26;
+            this.gridColumn82.Width = 60;
             // 
             // panelControl1
             // 
@@ -3698,13 +3720,9 @@
             customHeaderButtonImageOptions23.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions23.Image")));
             serializableAppearanceObject27.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             serializableAppearanceObject27.Options.UseFont = true;
-            customHeaderButtonImageOptions24.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions24.SvgImage")));
-            serializableAppearanceObject28.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject28.Options.UseFont = true;
             this.navigationPage9.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
             new DevExpress.XtraBars.Docking.CustomHeaderButton("GET DATA", true, customHeaderButtonImageOptions22, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject26, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("GET CHECKIN", true, customHeaderButtonImageOptions23, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject27, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("EXPORT EXCEL", true, customHeaderButtonImageOptions24, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject28, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("GET CHECKIN", true, customHeaderButtonImageOptions23, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject27, null, -1)});
             this.navigationPage9.Name = "navigationPage9";
             this.navigationPage9.PageText = "XML 130";
             this.navigationPage9.Size = new System.Drawing.Size(1055, 476);
@@ -4249,18 +4267,6 @@
             this.gridColumn43.VisibleIndex = 25;
             this.gridColumn43.Width = 107;
             // 
-            // gridColumn44
-            // 
-            this.gridColumn44.Caption = "T_BNTT";
-            this.gridColumn44.FieldName = "T_BNTT";
-            this.gridColumn44.GroupFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
-            this.gridColumn44.Name = "gridColumn44";
-            this.gridColumn44.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, DevExpress.Data.SummaryMode.Mixed, "T_BNTT", "{0:#,0.####}")});
-            this.gridColumn44.Visible = true;
-            this.gridColumn44.VisibleIndex = 26;
-            this.gridColumn44.Width = 124;
-            // 
             // gridColumn45
             // 
             this.gridColumn45.Caption = "T_BNCCT";
@@ -4746,18 +4752,6 @@
             this.gridColumn80.Visible = true;
             this.gridColumn80.VisibleIndex = 25;
             this.gridColumn80.Width = 100;
-            // 
-            // gridColumn82
-            // 
-            this.gridColumn82.Caption = "T_BNTT";
-            this.gridColumn82.FieldName = "T_BNTT";
-            this.gridColumn82.GroupFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
-            this.gridColumn82.Name = "gridColumn82";
-            this.gridColumn82.Summary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
-            new DevExpress.XtraGrid.GridColumnSummaryItem(DevExpress.Data.SummaryItemType.Sum, DevExpress.Data.SummaryMode.Mixed, "T_BNTT", "{0:#,0.####}")});
-            this.gridColumn82.Visible = true;
-            this.gridColumn82.VisibleIndex = 26;
-            this.gridColumn82.Width = 60;
             // 
             // gridColumn83
             // 

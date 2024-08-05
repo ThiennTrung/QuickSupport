@@ -1972,12 +1972,12 @@ namespace QuickSupport_v2
                 gridControl34.DataSource = source1;
                 gridView35.BestFitColumns();
             }
-            else if (e.Button == navigationPage9.CustomHeaderButtons[2])
-            {
-                string filePath = @"E:\file.xlsx";
-                WorkSheetHelper.ExportGridViewsToExcel(gridView22,gridView23,filePath);
-                //ExportDataGridViewsToExcel(dataGridView1, dataGridView2, filePath);
-            }
+            //else if (e.Button == navigationPage9.CustomHeaderButtons[2])
+            //{
+            //    string filePath = @"E:\file.xlsx";
+            //    WorkSheetHelper.ExportGridViewsToExcel(gridView22, gridView23, filePath);
+            //    //ExportDataGridViewsToExcel(dataGridView1, dataGridView2, filePath);
+            //}
         }
 
         private string Beautify(XmlDocument doc)
@@ -2824,8 +2824,12 @@ namespace QuickSupport_v2
         {
             InfoBenhnhan form = new InfoBenhnhan
             {
-                //SQuery = lstquery,
-                connection = connection
+                SQuery = querySqls,
+                connection = connection,
+                BENHNHAN_ID = int.Parse(BENHNHAN_ID.Text),
+                TIEPNHAN_ID = int.Parse(TIEPNHAN_ID.Text),
+                BENHAN_ID = int.Parse(BENHAN_ID.Text)
+
             };
             form.Show();
         }

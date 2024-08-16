@@ -1070,6 +1070,7 @@ namespace QuickSupport_v2
                 DataTable source = DbTool.DbTool.Query(connection, queryString, param);
                 gridControl12.DataSource = source;
                 gridView12.Columns["KHAMBENH_ID"].Visible = false;
+                gridView12.BestFitColumns();
             }
             else if (tabPane1.SelectedPageIndex == 2) // PT/TT
             {
@@ -2192,6 +2193,7 @@ namespace QuickSupport_v2
                 string REPORT_FILE = gridView7.GetRowCellValue(gridView7.GetSelectedRows().FirstOrDefault(), "REPORT_FILE").ToString();
                 string STORED_NAME = gridView7.GetRowCellValue(gridView7.GetSelectedRows().FirstOrDefault(), "PROCEDURE_FILE").ToString();
                 string link = string.Empty;
+                textBox3.Text = GenScriptStored(STORED_NAME);
                 switch (MABENHVIEN)
                 {
                     case "68038":
@@ -2224,7 +2226,6 @@ namespace QuickSupport_v2
                 {
                     linkLabel1.Text = radioGroup3.SelectedIndex == 0 ? link + REPORT_FILE : string.Empty;
                 }    
-                textBox3.Text = GenScriptStored(STORED_NAME);
             }
             else
             {
@@ -2822,16 +2823,32 @@ namespace QuickSupport_v2
 
         private void gridControl1_DoubleClick(object sender, EventArgs e)
         {
+            int x = 0;
+            int.TryParse(BENHAN_ID.Text, out x);
             InfoBenhnhan form = new InfoBenhnhan
             {
                 SQuery = querySqls,
                 connection = connection,
                 BENHNHAN_ID = int.Parse(BENHNHAN_ID.Text),
                 TIEPNHAN_ID = int.Parse(TIEPNHAN_ID.Text),
-                BENHAN_ID = int.Parse(BENHAN_ID.Text)
+                BENHAN_ID = x
 
             };
             form.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textEdit5.Text))
+                return;
+
+            QuerySql obj = querySqls.Where(x => x.code.Equals("DUPSHORTCUT")).First();
+            FPT.Framework.Data.DataObject param = obj.param;
+            param["KEYSEARCH"] = textEdit5.Text;
+            string queryString = obj.query;
+
+            DataTable source = DbTool.DbTool.Query(connection, queryString, param);
+            gridControl31.DataSource = source;
         }
     }
 }

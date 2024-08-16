@@ -451,6 +451,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraWizard.v22.2.dll" size="104336">
+      <assemblyIdentity name="DevExpress.XtraWizard.v22.2" version="22.2.3.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WswfsVv/Aq3lr+zmaNhkl+uuEUyXRN/9nLlg1XMKn74=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FPT.Framework.Common.dll" size="160256">
       <assemblyIdentity name="FPT.Framework.Common" version="1.0.8718.23466" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -487,48 +499,36 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuickSupport_v2.exe" size="429568">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuickSupport_v2.exe" size="432128">
       <assemblyIdentity name="QuickSupport_v2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/1TLUStzAzGmbDr2fA/3Z1WZQGlB8Sw7f1mWvfX08ZQ=</dsig:DigestValue>
+        <dsig:DigestValue>Wcdk68hQDelsna7werXFQdiqM9c2+HBoJiejffYxP1U=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.ValueTuple.dll" size="78992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.ValueTuple.dll" size="25232">
       <assemblyIdentity name="System.ValueTuple" version="4.0.3.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1vsNz+4UkKgWgRftG1V1jxHbOEdUF7NmjRn4nctVy90=</dsig:DigestValue>
+        <dsig:DigestValue>6QXRAlhbIsbfBPIZr1y9v6e8Fll56XiLYt9tzBZeEPQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnicodeNormalization.dll" size="557056">
-      <assemblyIdentity name="UnicodeNormalization" version="1.0.3.0" publicKeyToken="262257E9601F4EF8" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zpE2bGYkuo2V0pDko5rMh7F6ra/5QpcDJCKdCVB8qHg=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <file name="FileData\SqlQuery.json" size="63472">
+  <file name="FileData\SqlQuery.json" size="68621">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>y60uhLvrOpwhMs+B/enZqLOkIYXt3zAF5QFGolUNm6g=</dsig:DigestValue>
+      <dsig:DigestValue>E38NuyOj4Q6dhd9zTdM1G6SrYpZOSXAioaMR6CglvkU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="icon.ico" size="67646">
@@ -540,13 +540,13 @@
       <dsig:DigestValue>xbrJ1PV74xcMGYHVKj1bzFYwwibUPZNYU0b8A3109uQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="QuickSupport_v2.exe.config" size="17730">
+  <file name="QuickSupport_v2.exe.config" size="17965">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>aodiXx3GB1c7v/Obf4xEgrDPI3mV0fpSINpMq2E057Y=</dsig:DigestValue>
+      <dsig:DigestValue>ZkADRzn57Q0ewiNFMerwKWsdeMcCC6fZhiVrdPqv5sM=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

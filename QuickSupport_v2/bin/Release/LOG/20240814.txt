@@ -1,0 +1,2 @@
+﻿2024-08-14 13:46:44,321 [1] ERROR QuickSupport_v2.Program - Input string was not in a correct format.
+2024-08-14 13:46:45,979 [1] ERROR QuickSupport_v2.Program - Input string was not in a correct format.

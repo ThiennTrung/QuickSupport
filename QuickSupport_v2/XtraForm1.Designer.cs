@@ -561,6 +561,14 @@
             this.repositoryItemButtonEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.gridView29 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridSplitContainer1 = new DevExpress.XtraGrid.GridSplitContainer();
+            this.navigationPage13 = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.panelControl9 = new DevExpress.XtraEditors.PanelControl();
+            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
+            this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
+            this.gridControl31 = new DevExpress.XtraGrid.GridControl();
+            this.gridView32 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.repositoryItemCheckEdit31 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
@@ -786,6 +794,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridSplitContainer1.Panel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridSplitContainer1.Panel2)).BeginInit();
             this.gridSplitContainer1.SuspendLayout();
+            this.navigationPage13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl9)).BeginInit();
+            this.panelControl9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit31)).BeginInit();
             this.SuspendLayout();
             // 
             // BENHNHAN_PHAITHANHTOAN
@@ -913,6 +928,7 @@
             this.navigationPane1.Controls.Add(this.navigationPage9);
             this.navigationPane1.Controls.Add(this.navigationPage10);
             this.navigationPane1.Controls.Add(this.navigationPage12);
+            this.navigationPane1.Controls.Add(this.navigationPage13);
             this.navigationPane1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.navigationPane1.Location = new System.Drawing.Point(2, 191);
             this.navigationPane1.Name = "navigationPane1";
@@ -931,7 +947,8 @@
             this.navigationPage11,
             this.navigationPage9,
             this.navigationPage10,
-            this.navigationPage12});
+            this.navigationPage12,
+            this.navigationPage13});
             this.navigationPane1.RegularSize = new System.Drawing.Size(1162, 540);
             this.navigationPane1.SelectedPage = this.navigationPage1;
             this.navigationPane1.Size = new System.Drawing.Size(1162, 540);
@@ -3075,7 +3092,7 @@
             this.tabNavigationPage2.Controls.Add(this.splitContainerControl4);
             this.tabNavigationPage2.Controls.Add(this.gridControl12);
             this.tabNavigationPage2.Name = "tabNavigationPage2";
-            this.tabNavigationPage2.Size = new System.Drawing.Size(932, 437);
+            this.tabNavigationPage2.Size = new System.Drawing.Size(1055, 437);
             // 
             // splitContainerControl4
             // 
@@ -3093,7 +3110,7 @@
             // 
             this.splitContainerControl4.Panel2.Controls.Add(this.gridControl14);
             this.splitContainerControl4.Panel2.Text = "Panel2";
-            this.splitContainerControl4.Size = new System.Drawing.Size(767, 437);
+            this.splitContainerControl4.Size = new System.Drawing.Size(890, 437);
             this.splitContainerControl4.SplitterPosition = 249;
             this.splitContainerControl4.TabIndex = 5;
             // 
@@ -3109,7 +3126,7 @@
             this.gridControl13.Name = "gridControl13";
             this.gridControl13.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit13});
-            this.gridControl13.Size = new System.Drawing.Size(767, 249);
+            this.gridControl13.Size = new System.Drawing.Size(890, 249);
             this.gridControl13.TabIndex = 20;
             this.gridControl13.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView13});
@@ -3155,7 +3172,7 @@
             this.gridControl14.Name = "gridControl14";
             this.gridControl14.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit14});
-            this.gridControl14.Size = new System.Drawing.Size(767, 178);
+            this.gridControl14.Size = new System.Drawing.Size(890, 178);
             this.gridControl14.TabIndex = 3;
             this.gridControl14.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView14});
@@ -3226,6 +3243,7 @@
             this.gridView12.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CellSelect;
             this.gridView12.OptionsSelection.ResetSelectionClickOutsideCheckboxSelector = true;
             this.gridView12.OptionsView.BestFitMode = DevExpress.XtraGrid.Views.Grid.GridBestFitMode.Full;
+            this.gridView12.OptionsView.ColumnAutoWidth = false;
             this.gridView12.OptionsView.ShowGroupPanel = false;
             // 
             // repositoryItemCheckEdit12
@@ -6264,6 +6282,100 @@
             this.gridSplitContainer1.Size = new System.Drawing.Size(400, 400);
             this.gridSplitContainer1.TabIndex = 0;
             // 
+            // navigationPage13
+            // 
+            this.navigationPage13.Caption = " ";
+            this.navigationPage13.Controls.Add(this.gridControl31);
+            this.navigationPage13.Controls.Add(this.panelControl9);
+            this.navigationPage13.Name = "navigationPage13";
+            this.navigationPage13.PageText = "CHECK";
+            this.navigationPage13.Size = new System.Drawing.Size(1055, 506);
+            // 
+            // panelControl9
+            // 
+            this.panelControl9.Controls.Add(this.button5);
+            this.panelControl9.Controls.Add(this.linkLabel4);
+            this.panelControl9.Controls.Add(this.textEdit5);
+            this.panelControl9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelControl9.Location = new System.Drawing.Point(0, 0);
+            this.panelControl9.Name = "panelControl9";
+            this.panelControl9.Size = new System.Drawing.Size(1055, 55);
+            this.panelControl9.TabIndex = 1;
+            // 
+            // linkLabel4
+            // 
+            this.linkLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.linkLabel4.AutoSize = true;
+            this.linkLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel4.Location = new System.Drawing.Point(497, 19);
+            this.linkLabel4.Name = "linkLabel4";
+            this.linkLabel4.Size = new System.Drawing.Size(0, 16);
+            this.linkLabel4.TabIndex = 25;
+            // 
+            // textEdit5
+            // 
+            this.textEdit5.EditValue = "";
+            this.textEdit5.Location = new System.Drawing.Point(77, 17);
+            this.textEdit5.Name = "textEdit5";
+            this.textEdit5.Size = new System.Drawing.Size(128, 20);
+            this.textEdit5.TabIndex = 7;
+            // 
+            // gridControl31
+            // 
+            this.gridControl31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl31.EmbeddedNavigator.Buttons.CancelEdit.Enabled = false;
+            this.gridControl31.EmbeddedNavigator.Buttons.Edit.Enabled = false;
+            this.gridControl31.EmbeddedNavigator.Buttons.Edit.Visible = false;
+            this.gridControl31.Location = new System.Drawing.Point(0, 55);
+            this.gridControl31.MainView = this.gridView32;
+            this.gridControl31.Name = "gridControl31";
+            this.gridControl31.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemCheckEdit31});
+            this.gridControl31.Size = new System.Drawing.Size(1055, 451);
+            this.gridControl31.TabIndex = 6;
+            this.gridControl31.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView32});
+            // 
+            // gridView32
+            // 
+            this.gridView32.Appearance.SelectedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gridView32.Appearance.SelectedRow.ForeColor = System.Drawing.Color.Red;
+            this.gridView32.Appearance.SelectedRow.Options.UseBackColor = true;
+            this.gridView32.Appearance.SelectedRow.Options.UseForeColor = true;
+            this.gridView32.CustomizationFormBounds = new System.Drawing.Rectangle(612, 137, 264, 300);
+            this.gridView32.GridControl = this.gridControl31;
+            this.gridView32.Name = "gridView32";
+            this.gridView32.OptionsBehavior.AlignGroupSummaryInGroupRow = DevExpress.Utils.DefaultBoolean.False;
+            this.gridView32.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.False;
+            this.gridView32.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.False;
+            this.gridView32.OptionsBehavior.Editable = false;
+            this.gridView32.OptionsBehavior.ReadOnly = true;
+            this.gridView32.OptionsClipboard.CopyColumnHeaders = DevExpress.Utils.DefaultBoolean.False;
+            this.gridView32.OptionsCustomization.UseAdvancedCustomizationForm = DevExpress.Utils.DefaultBoolean.False;
+            this.gridView32.OptionsEditForm.ActionOnModifiedRowChange = DevExpress.XtraGrid.Views.Grid.EditFormModifiedAction.Nothing;
+            this.gridView32.OptionsSelection.MultiSelect = true;
+            this.gridView32.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CellSelect;
+            this.gridView32.OptionsSelection.ResetSelectionClickOutsideCheckboxSelector = true;
+            this.gridView32.OptionsView.BestFitMode = DevExpress.XtraGrid.Views.Grid.GridBestFitMode.Full;
+            this.gridView32.OptionsView.ShowGroupPanel = false;
+            // 
+            // repositoryItemCheckEdit31
+            // 
+            this.repositoryItemCheckEdit31.AutoHeight = false;
+            this.repositoryItemCheckEdit31.Name = "repositoryItemCheckEdit31";
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(5, 3);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(66, 46);
+            this.button5.TabIndex = 26;
+            this.button5.Text = "Trùng Shortcut";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // XtraForm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -6513,6 +6625,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridSplitContainer1.Panel2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridSplitContainer1)).EndInit();
             this.gridSplitContainer1.ResumeLayout(false);
+            this.navigationPage13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl9)).EndInit();
+            this.panelControl9.ResumeLayout(false);
+            this.panelControl9.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit31)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -6963,5 +7083,13 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn99;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn100;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn101;
+        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage13;
+        private DevExpress.XtraGrid.GridControl gridControl31;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView32;
+        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit31;
+        private DevExpress.XtraEditors.PanelControl panelControl9;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.LinkLabel linkLabel4;
+        private DevExpress.XtraEditors.TextEdit textEdit5;
     }
 }

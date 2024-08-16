@@ -268,3 +268,9 @@ C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraV
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.Diagram.v22.2.Core.xml
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraDiagram.v22.2.xml
 C:\Users\ADMIN\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraVerticalGrid.v22.2.xml
+C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.Diagram.v22.2.Core.dll
+C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraDiagram.v22.2.dll
+C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraVerticalGrid.v22.2.dll
+C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.Diagram.v22.2.Core.xml
+C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraDiagram.v22.2.xml
+C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\bin\Release\DevExpress.XtraVerticalGrid.v22.2.xml

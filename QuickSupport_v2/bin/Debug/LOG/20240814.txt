@@ -1,0 +1,2 @@
+﻿2024-08-14 13:55:56,287 [1] ERROR QuickSupport_v2.Program - Object reference not set to an instance of an object.
+2024-08-14 13:56:27,280 [1] ERROR QuickSupport_v2.Program - Object reference not set to an instance of an object.

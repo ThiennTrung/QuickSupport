@@ -2781,6 +2781,9 @@ namespace QuickSupport_v2
 
         private void gridControl26_Click(object sender, EventArgs e)
         {
+            if (!gridView26.Columns.Contains(gridView26.Columns["REF_TABLE"]))
+                return;
+
             if (gridView26.GetSelectedRows().FirstOrDefault() >= 0)
             {
                 string code = string.Empty;
@@ -2849,6 +2852,24 @@ namespace QuickSupport_v2
 
             DataTable source = DbTool.DbTool.Query(connection, queryString, param);
             gridControl31.DataSource = source;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var index = comboBox5.SelectedIndex;
+            if (string.IsNullOrEmpty(textBox18.Text))
+            {
+                MessagesBox("Nhập mã chứng từ", false);
+                return;
+            }
+
+            QuerySql obj = querySqls.Where(x => x.code.Equals("SCAPCHUNGTU")).First();
+            string queryString = obj.query;
+            FPT.Framework.Data.DataObject param = obj.param;
+            param["MACHUNGTU"] = textBox18.Text;
+            DataTable source = DbTool.DbTool.Query(connection, queryString, param);
+            gridControl26.DataSource = source;
+            gridView26.BestFitColumns();
         }
     }
 }

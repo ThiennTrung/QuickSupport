@@ -811,6 +811,10 @@ namespace QuickSupport_v2
                 gridView3.Columns["LOAI"].Group();
                 gridView3.Columns["REF_TABLE"].Group();
             }
+            if (index == 2 && source.Rows.Count > 0)
+            {
+                gridView3.Columns["STT"].Group();
+            }
         }
 
         private void navigationPage3_CustomButtonClick(object sender, DevExpress.XtraBars.Docking2010.ButtonEventArgs e)
@@ -1973,12 +1977,77 @@ namespace QuickSupport_v2
                 gridControl34.DataSource = source1;
                 gridView35.BestFitColumns();
             }
-            //else if (e.Button == navigationPage9.CustomHeaderButtons[2])
-            //{
-            //    string filePath = @"E:\file.xlsx";
-            //    WorkSheetHelper.ExportGridViewsToExcel(gridView22, gridView23, filePath);
-            //    //ExportDataGridViewsToExcel(dataGridView1, dataGridView2, filePath);
-            //}
+            else if (e.Button == navigationPage9.CustomHeaderButtons[2]) // TRƯỚC RA VIỆN
+            {
+                FPT.Framework.Data.DataObject param = new FPT.Framework.Data.DataObject();
+                param["TIEPNHAN_ID"] = TIEPNHAN_ID.Text;
+                param["BENHNHAN_ID"] = BENHNHAN_ID.Text;
+                param["MABENHVIEN"] = MABENHVIEN;
+                //param["DEBUG"] = 1;
+
+                string action;
+                if (string.IsNullOrEmpty(BENHAN_ID.Text))
+                {
+                    action = "eClaim_NgoaiTru_TT130_TRUOCRAVIEN";
+                }
+                else
+                {
+                    action = "eClaim_NoiTru_DTNT_TT130_TRUOCRAVIEN";
+                    param["BENHAN_ID"] = BENHAN_ID.Text;
+                }
+
+                DataSet source = DbTool.DbTool.QueryStored(connection, action, param);
+                gridControl15.DataSource = source.Tables[0];
+                gridControl22.DataSource = source.Tables[1];
+                gridControl23.DataSource = source.Tables[2];
+
+
+
+                gridView15.Columns["T_BHTT"].AppearanceCell.BackColor = Color.GreenYellow;
+                gridView15.Columns["T_BNTT"].AppearanceCell.BackColor = Color.GreenYellow;
+                gridView15.Columns["T_BNCCT"].AppearanceCell.BackColor = Color.GreenYellow;
+                gridView15.Columns["T_TONGCHI_BH"].AppearanceCell.BackColor = Color.GreenYellow;
+                gridView15.Columns["T_THUOC"].AppearanceCell.BackColor = Color.Yellow;
+                gridView15.Columns["T_VTYT"].AppearanceCell.BackColor = Color.Yellow;
+
+                param.Remove("MABENHVIEN");
+                param.Remove("DEBUG");
+                if (!param.ContainsKey("BENHAN_ID"))
+                    param["BENHAN_ID"] = BENHAN_ID.Text;
+
+                DataSet sourc1e = DbTool.DbTool.QueryStored(connection, "eClaim_TT130_4_12_TRUOCRAVIEN", param);
+
+                System.Data.DataColumnCollection columns = sourc1e.Tables[0].Columns;
+                gridControl21.DataSource = columns.Contains("XML4_RESULT") ? XmlToDataset(sourc1e.Tables[0].Rows[0].Field<string>("XML4_RESULT")) : null;
+                gridControl24.DataSource = columns.Contains("XML5_RESULT") ? XmlToDataset(sourc1e.Tables[0].Rows[0].Field<string>("XML5_RESULT")) : null;
+
+                //giấy ra viện
+                webBrowser2.DocumentText = columns.Contains("XML7_RESULT") ? Beautify(sourc1e.Tables[0].Rows[0].Field<string>("XML7_RESULT")) : null;
+                //Tóm tắt HSBA
+                webBrowser3.DocumentText = columns.Contains("XML8_RESULT") ? Beautify(sourc1e.Tables[0].Rows[0].Field<string>("XML8_RESULT")) : null;
+                webBrowser4.DocumentText = columns.Contains("XML9_RESULT") ? Beautify(sourc1e.Tables[0].Rows[0].Field<string>("XML9_RESULT")) : null;
+                webBrowser7.DocumentText = columns.Contains("XML10_RESULT") ? Beautify(sourc1e.Tables[0].Rows[0].Field<string>("XML10_RESULT")) : null;
+                webBrowser5.DocumentText = columns.Contains("XML11_RESULT") ? Beautify(sourc1e.Tables[0].Rows[0].Field<string>("XML11_RESULT")) : null;
+
+                webBrowser8.DocumentText = columns.Contains("XML13_RESULT") ? Beautify(sourc1e.Tables[0].Rows[0].Field<string>("XML13_RESULT")) : null;
+                webBrowser9.DocumentText = columns.Contains("XML14_RESULT") ? Beautify(sourc1e.Tables[0].Rows[0].Field<string>("XML14_RESULT")) : null;
+
+                string storedname = string.IsNullOrEmpty(BENHAN_ID.Text) ? "eClaim_NgoaiTru_TT130_TRUOCRAVIEN" : "eClaim_NoiTru_DTNT_TT130_TRUOCRAVIEN";
+
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.Append(GenScriptStored(storedname));
+                stringBuilder.Append("<br><br>");
+                stringBuilder.Append(GenScriptStored("eClaim_TT130_4_12_TRUOCRAVIEN"));
+                stringBuilder.Append("<br><br>");
+
+                webBrowser6.DocumentText = stringBuilder.ToString();
+
+                gridView15.BestFitColumns();
+                gridView22.BestFitColumns();
+                gridView23.BestFitColumns();
+                gridView21.BestFitColumns();
+                gridView24.BestFitColumns();
+            }
         }
 
         private string Beautify(XmlDocument doc)
@@ -2856,6 +2925,7 @@ namespace QuickSupport_v2
 
         private void button6_Click(object sender, EventArgs e)
         {
+            gridView26.Columns.Clear();
             var index = comboBox5.SelectedIndex;
             if (string.IsNullOrEmpty(textBox18.Text))
             {
@@ -2870,6 +2940,18 @@ namespace QuickSupport_v2
             DataTable source = DbTool.DbTool.Query(connection, queryString, param);
             gridControl26.DataSource = source;
             gridView26.BestFitColumns();
+        }
+
+        private void button7_Click_1(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(TIEPNHAN_ID.Text))
+            {
+                MessagesBox("Chọn tiếp nhận đi", false);
+                return;
+            }
+            FPT.Framework.Data.DataObject param = new FPT.Framework.Data.DataObject();
+            param["TIEPNHAN_ID"] = TIEPNHAN_ID.Text;
+            QuickSupport_v2.Function.Helper.BindingData2gridview(connection,querySqls, gridControl31, param, "ICDNGOAITRU");
         }
     }
 }

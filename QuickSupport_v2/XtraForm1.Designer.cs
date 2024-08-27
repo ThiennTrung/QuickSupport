@@ -29,80 +29,68 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions24 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions1 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(XtraForm1));
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject28 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions25 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject29 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions26 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject30 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions27 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject31 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions28 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject32 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions29 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject33 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions30 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject34 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions31 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject35 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions32 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject36 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions33 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject37 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions34 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject38 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions35 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject39 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions36 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject40 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions37 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject41 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions38 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject42 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule17 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue6 = new DevExpress.XtraEditors.FormatConditionRuleValue();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule18 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression12 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions39 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject43 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions40 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject44 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions41 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject45 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions42 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject46 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions43 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject47 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions44 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject48 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject51 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject52 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject53 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject54 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions buttonImageOptions5 = new DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions();
-            DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions buttonImageOptions6 = new DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions();
-            DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions buttonImageOptions7 = new DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions();
-            DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions buttonImageOptions8 = new DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions45 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject49 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions46 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject50 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions2 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions3 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions4 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions5 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions6 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions7 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions8 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions9 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject9 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions10 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject10 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions11 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject11 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions12 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject12 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions13 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject13 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions14 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject14 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions15 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject15 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue1 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule2 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue7 = new DevExpress.XtraEditors.FormatConditionRuleValue();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule19 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression1 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule20 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression13 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule21 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression14 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule22 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression15 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
-            DevExpress.XtraGrid.GridFormatRule gridFormatRule23 = new DevExpress.XtraGrid.GridFormatRule();
-            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression16 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions16 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject16 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions17 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject17 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions18 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject18 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions19 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject19 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions20 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject20 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions21 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject21 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject22 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject23 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject24 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject25 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions buttonImageOptions1 = new DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions();
+            DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions buttonImageOptions2 = new DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions();
+            DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions buttonImageOptions3 = new DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions();
+            DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions buttonImageOptions4 = new DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions22 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject26 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions23 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject27 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions24 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject28 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule3 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue2 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule4 = new DevExpress.XtraGrid.GridFormatRule();
@@ -117,6 +105,20 @@
             DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression5 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule9 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression6 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule10 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue4 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule11 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue5 = new DevExpress.XtraEditors.FormatConditionRuleValue();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule12 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression7 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule13 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression8 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule14 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression9 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule15 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression10 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
+            DevExpress.XtraGrid.GridFormatRule gridFormatRule16 = new DevExpress.XtraGrid.GridFormatRule();
+            DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression11 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
             this.BENHNHAN_PHAITHANHTOAN = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn48 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn51 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -570,6 +572,7 @@
             this.repositoryItemButtonEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.gridView29 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridSplitContainer1 = new DevExpress.XtraGrid.GridSplitContainer();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
@@ -960,47 +963,47 @@
             // 
             this.navigationPage1.Caption = "CHUNG";
             this.navigationPage1.Controls.Add(this.gridControl3);
-            customHeaderButtonImageOptions24.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions24.SvgImage")));
-            serializableAppearanceObject28.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject28.Options.UseFont = true;
-            customHeaderButtonImageOptions25.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions25.SvgImage")));
-            serializableAppearanceObject29.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject29.Options.UseFont = true;
-            customHeaderButtonImageOptions26.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions26.SvgImage")));
-            serializableAppearanceObject30.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject30.Options.UseFont = true;
-            customHeaderButtonImageOptions27.ImageUri.Uri = "icon%20builder/travel_rest";
-            serializableAppearanceObject31.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject31.Options.UseFont = true;
-            customHeaderButtonImageOptions28.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions28.SvgImage")));
-            serializableAppearanceObject32.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject32.Options.UseFont = true;
-            customHeaderButtonImageOptions29.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions29.SvgImage")));
-            serializableAppearanceObject33.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject33.Options.UseFont = true;
-            customHeaderButtonImageOptions30.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions30.SvgImage")));
-            serializableAppearanceObject34.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject34.Options.UseFont = true;
-            customHeaderButtonImageOptions31.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions31.Image")));
-            serializableAppearanceObject35.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject35.Options.UseFont = true;
-            customHeaderButtonImageOptions32.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions32.Image")));
-            serializableAppearanceObject36.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject36.Options.UseFont = true;
-            customHeaderButtonImageOptions33.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions33.SvgImage")));
-            serializableAppearanceObject37.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject37.Options.UseFont = true;
+            customHeaderButtonImageOptions1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions1.SvgImage")));
+            serializableAppearanceObject1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject1.Options.UseFont = true;
+            customHeaderButtonImageOptions2.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions2.SvgImage")));
+            serializableAppearanceObject2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject2.Options.UseFont = true;
+            customHeaderButtonImageOptions3.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions3.SvgImage")));
+            serializableAppearanceObject3.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject3.Options.UseFont = true;
+            customHeaderButtonImageOptions4.ImageUri.Uri = "icon%20builder/travel_rest";
+            serializableAppearanceObject4.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject4.Options.UseFont = true;
+            customHeaderButtonImageOptions5.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions5.SvgImage")));
+            serializableAppearanceObject5.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject5.Options.UseFont = true;
+            customHeaderButtonImageOptions6.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions6.SvgImage")));
+            serializableAppearanceObject6.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject6.Options.UseFont = true;
+            customHeaderButtonImageOptions7.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions7.SvgImage")));
+            serializableAppearanceObject7.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject7.Options.UseFont = true;
+            customHeaderButtonImageOptions8.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions8.Image")));
+            serializableAppearanceObject8.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject8.Options.UseFont = true;
+            customHeaderButtonImageOptions9.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions9.Image")));
+            serializableAppearanceObject9.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject9.Options.UseFont = true;
+            customHeaderButtonImageOptions10.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions10.SvgImage")));
+            serializableAppearanceObject10.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject10.Options.UseFont = true;
             this.navigationPage1.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("S.HIỆU", true, customHeaderButtonImageOptions24, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject28, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("TT KBENH", true, customHeaderButtonImageOptions25, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject29, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("DV THEO KB", true, customHeaderButtonImageOptions26, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject30, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Giường", true, customHeaderButtonImageOptions27, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject31, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("XN BH", true, customHeaderButtonImageOptions28, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject32, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("HĐƠN", true, customHeaderButtonImageOptions29, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject33, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("ĐỢT ĐTRỊ", true, customHeaderButtonImageOptions30, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject34, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("MIỄM GIẢM", true, customHeaderButtonImageOptions31, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject35, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("KT HỦY BA", true, customHeaderButtonImageOptions32, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject36, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("GÓI", true, customHeaderButtonImageOptions33, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject37, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("S.HIỆU", true, customHeaderButtonImageOptions1, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject1, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("TT KBENH", true, customHeaderButtonImageOptions2, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject2, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("DV THEO KB", true, customHeaderButtonImageOptions3, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject3, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Giường", true, customHeaderButtonImageOptions4, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject4, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("XN BH", true, customHeaderButtonImageOptions5, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject5, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("HĐƠN", true, customHeaderButtonImageOptions6, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject6, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("ĐỢT ĐTRỊ", true, customHeaderButtonImageOptions7, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject7, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("MIỄM GIẢM", true, customHeaderButtonImageOptions8, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject8, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("KT HỦY BA", true, customHeaderButtonImageOptions9, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject9, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("GÓI", true, customHeaderButtonImageOptions10, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject10, null, -1)});
             this.navigationPage1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navigationPage1.Name = "navigationPage1";
             this.navigationPage1.Size = new System.Drawing.Size(1055, 476);
@@ -1060,32 +1063,32 @@
             this.navigationPage2.Caption = "TT_VIENPHI";
             this.navigationPage2.Controls.Add(this.gridControl2);
             this.navigationPage2.Controls.Add(this.flowLayoutPanel5);
-            customHeaderButtonImageOptions34.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_check;
-            serializableAppearanceObject38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            serializableAppearanceObject38.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject38.ForeColor = System.Drawing.Color.Red;
-            serializableAppearanceObject38.Options.UseBackColor = true;
-            serializableAppearanceObject38.Options.UseFont = true;
-            serializableAppearanceObject38.Options.UseForeColor = true;
-            serializableAppearanceObject38.Options.UseTextOptions = true;
-            customHeaderButtonImageOptions35.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_zoom;
-            serializableAppearanceObject39.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject39.Options.UseFont = true;
-            customHeaderButtonImageOptions36.SvgImage = global::QuickSupport_v2.Properties.Resources.business_dollar;
-            serializableAppearanceObject40.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject40.Options.UseFont = true;
-            customHeaderButtonImageOptions37.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_deletecircled;
-            serializableAppearanceObject41.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject41.Options.UseFont = true;
-            customHeaderButtonImageOptions38.Image = global::QuickSupport_v2.Properties.Resources.copy_32x32;
-            serializableAppearanceObject42.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject42.Options.UseFont = true;
+            customHeaderButtonImageOptions11.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_check;
+            serializableAppearanceObject11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            serializableAppearanceObject11.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject11.ForeColor = System.Drawing.Color.Red;
+            serializableAppearanceObject11.Options.UseBackColor = true;
+            serializableAppearanceObject11.Options.UseFont = true;
+            serializableAppearanceObject11.Options.UseForeColor = true;
+            serializableAppearanceObject11.Options.UseTextOptions = true;
+            customHeaderButtonImageOptions12.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_zoom;
+            serializableAppearanceObject12.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject12.Options.UseFont = true;
+            customHeaderButtonImageOptions13.SvgImage = global::QuickSupport_v2.Properties.Resources.business_dollar;
+            serializableAppearanceObject13.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject13.Options.UseFont = true;
+            customHeaderButtonImageOptions14.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_deletecircled;
+            serializableAppearanceObject14.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject14.Options.UseFont = true;
+            customHeaderButtonImageOptions15.Image = global::QuickSupport_v2.Properties.Resources.copy_32x32;
+            serializableAppearanceObject15.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject15.Options.UseFont = true;
             this.navigationPage2.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("BHYT", true, customHeaderButtonImageOptions34, DevExpress.XtraBars.Docking2010.ButtonStyle.CheckButton, "", -1, true, null, true, false, true, serializableAppearanceObject38, false, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Tìm kiếm", true, customHeaderButtonImageOptions35, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject39, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Tính lại chi phí", true, customHeaderButtonImageOptions36, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject40, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Chưa có SOLONHAP_ID", true, customHeaderButtonImageOptions37, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject41, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Script VP", true, customHeaderButtonImageOptions38, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject42, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("BHYT", true, customHeaderButtonImageOptions11, DevExpress.XtraBars.Docking2010.ButtonStyle.CheckButton, "", -1, true, null, true, false, true, serializableAppearanceObject11, false, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Tìm kiếm", true, customHeaderButtonImageOptions12, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject12, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Tính lại chi phí", true, customHeaderButtonImageOptions13, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject13, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Chưa có SOLONHAP_ID", true, customHeaderButtonImageOptions14, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject14, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Script VP", true, customHeaderButtonImageOptions15, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject15, null, -1)});
             this.navigationPage2.Name = "navigationPage2";
             this.navigationPage2.PageText = "VIỆN PHÍ";
             this.navigationPage2.Properties.ShowCollapseButton = DevExpress.Utils.DefaultBoolean.False;
@@ -1146,23 +1149,23 @@
             this.MIENGIAM_GIATRI,
             this.LOAI});
             this.gridView2.CustomizationFormBounds = new System.Drawing.Rectangle(612, 137, 264, 300);
-            gridFormatRule17.Column = this.BENHNHAN_PHAITHANHTOAN;
-            gridFormatRule17.ColumnApplyTo = this.BENHNHAN_PHAITHANHTOAN;
-            gridFormatRule17.Name = "Format0";
-            formatConditionRuleValue6.AllowAnimation = DevExpress.Utils.DefaultBoolean.False;
-            formatConditionRuleValue6.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            formatConditionRuleValue6.Appearance.Options.UseBackColor = true;
-            formatConditionRuleValue6.Condition = DevExpress.XtraEditors.FormatCondition.Less;
-            formatConditionRuleValue6.Value1 = ((short)(0));
-            gridFormatRule17.Rule = formatConditionRuleValue6;
-            gridFormatRule18.ApplyToRow = true;
-            gridFormatRule18.Name = "Format1";
-            formatConditionRuleExpression12.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            formatConditionRuleExpression12.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression12.Expression = "[BENHNHAN_PHAITHANHTOAN] - [GIATRI_BENHNHAN_DATHANHTOAN] < 0";
-            gridFormatRule18.Rule = formatConditionRuleExpression12;
-            this.gridView2.FormatRules.Add(gridFormatRule17);
-            this.gridView2.FormatRules.Add(gridFormatRule18);
+            gridFormatRule1.Column = this.BENHNHAN_PHAITHANHTOAN;
+            gridFormatRule1.ColumnApplyTo = this.BENHNHAN_PHAITHANHTOAN;
+            gridFormatRule1.Name = "Format0";
+            formatConditionRuleValue1.AllowAnimation = DevExpress.Utils.DefaultBoolean.False;
+            formatConditionRuleValue1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            formatConditionRuleValue1.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue1.Condition = DevExpress.XtraEditors.FormatCondition.Less;
+            formatConditionRuleValue1.Value1 = ((short)(0));
+            gridFormatRule1.Rule = formatConditionRuleValue1;
+            gridFormatRule2.ApplyToRow = true;
+            gridFormatRule2.Name = "Format1";
+            formatConditionRuleExpression1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            formatConditionRuleExpression1.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression1.Expression = "[BENHNHAN_PHAITHANHTOAN] - [GIATRI_BENHNHAN_DATHANHTOAN] < 0";
+            gridFormatRule2.Rule = formatConditionRuleExpression1;
+            this.gridView2.FormatRules.Add(gridFormatRule1);
+            this.gridView2.FormatRules.Add(gridFormatRule2);
             this.gridView2.GridControl = this.gridControl2;
             this.gridView2.GroupCount = 2;
             this.gridView2.GroupSummary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
@@ -1694,15 +1697,15 @@
             this.navigationPage3.Controls.Add(this.gridControl4);
             this.navigationPage3.Controls.Add(this.panelControl7);
             this.navigationPage3.Controls.Add(this.gridControl11);
-            customHeaderButtonImageOptions39.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_deletecircled;
-            serializableAppearanceObject43.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject43.Options.UseFont = true;
-            customHeaderButtonImageOptions40.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_zoom;
-            serializableAppearanceObject44.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject44.Options.UseFont = true;
+            customHeaderButtonImageOptions16.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_deletecircled;
+            serializableAppearanceObject16.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject16.Options.UseFont = true;
+            customHeaderButtonImageOptions17.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_zoom;
+            serializableAppearanceObject17.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject17.Options.UseFont = true;
             this.navigationPage3.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Chưa hoàn tất/ được phép TH", true, customHeaderButtonImageOptions39, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject43, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Search", true, customHeaderButtonImageOptions40, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject44, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Chưa hoàn tất/ được phép TH", true, customHeaderButtonImageOptions16, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject16, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Search", true, customHeaderButtonImageOptions17, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject17, null, -1)});
             this.navigationPage3.Name = "navigationPage3";
             this.navigationPage3.PageText = "DỊCH VỤ";
             this.navigationPage3.Size = new System.Drawing.Size(1055, 476);
@@ -1890,23 +1893,23 @@
             this.navigationPage4.Caption = "Thẻ BHYT";
             this.navigationPage4.Controls.Add(this.groupControl5);
             this.navigationPage4.Controls.Add(this.groupControl4);
-            customHeaderButtonImageOptions41.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions41.Image")));
-            serializableAppearanceObject45.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject45.Options.UseFont = true;
-            customHeaderButtonImageOptions42.Image = global::QuickSupport_v2.Properties.Resources.saveto_32x32;
-            serializableAppearanceObject46.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject46.Options.UseFont = true;
-            customHeaderButtonImageOptions43.Image = global::QuickSupport_v2.Properties.Resources.copy_32x32;
-            serializableAppearanceObject47.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject47.Options.UseFont = true;
-            customHeaderButtonImageOptions44.Image = global::QuickSupport_v2.Properties.Resources.leftright_32x32;
-            serializableAppearanceObject48.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject48.Options.UseFont = true;
+            customHeaderButtonImageOptions18.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions18.Image")));
+            serializableAppearanceObject18.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject18.Options.UseFont = true;
+            customHeaderButtonImageOptions19.Image = global::QuickSupport_v2.Properties.Resources.saveto_32x32;
+            serializableAppearanceObject19.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject19.Options.UseFont = true;
+            customHeaderButtonImageOptions20.Image = global::QuickSupport_v2.Properties.Resources.copy_32x32;
+            serializableAppearanceObject20.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject20.Options.UseFont = true;
+            customHeaderButtonImageOptions21.Image = global::QuickSupport_v2.Properties.Resources.leftright_32x32;
+            serializableAppearanceObject21.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject21.Options.UseFont = true;
             this.navigationPage4.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Search", true, customHeaderButtonImageOptions41, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject45, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Lưu dữ liệu thay đổi", true, customHeaderButtonImageOptions42, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject46, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Script thẻ BHYT", true, customHeaderButtonImageOptions43, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject47, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Chuyển ALL chi phí về 1 thẻ", true, customHeaderButtonImageOptions44, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "Chọn 1 số thẻ (bảng 2) để cập nhật tất cả chi phí BHYT về thẻ này", -1, true, null, true, false, true, serializableAppearanceObject48, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Search", true, customHeaderButtonImageOptions18, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject18, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Lưu dữ liệu thay đổi", true, customHeaderButtonImageOptions19, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject19, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Script thẻ BHYT", true, customHeaderButtonImageOptions20, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject20, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Chuyển ALL chi phí về 1 thẻ", true, customHeaderButtonImageOptions21, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "Chọn 1 số thẻ (bảng 2) để cập nhật tất cả chi phí BHYT về thẻ này", -1, true, null, true, false, true, serializableAppearanceObject21, null, -1)});
             this.navigationPage4.Name = "navigationPage4";
             this.navigationPage4.PageText = "Thẻ BHYT";
             this.navigationPage4.Size = new System.Drawing.Size(1055, 476);
@@ -2363,9 +2366,9 @@
             // repositoryItemButtonEdit1
             // 
             this.repositoryItemButtonEdit1.AutoHeight = false;
-            editorButtonImageOptions2.Image = global::QuickSupport_v2.Properties.Resources.icoUngdung;
+            editorButtonImageOptions1.Image = global::QuickSupport_v2.Properties.Resources.icoUngdung;
             this.repositoryItemButtonEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject51, serializableAppearanceObject52, serializableAppearanceObject53, serializableAppearanceObject54, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject22, serializableAppearanceObject23, serializableAppearanceObject24, serializableAppearanceObject25, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
             this.repositoryItemButtonEdit1.Name = "repositoryItemButtonEdit1";
             this.repositoryItemButtonEdit1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             // 
@@ -2720,10 +2723,10 @@
             // groupControl1
             // 
             this.groupControl1.CustomHeaderButtons.AddRange(new DevExpress.XtraEditors.ButtonPanel.IBaseButton[] {
-            new DevExpress.XtraEditors.ButtonsPanelControl.GroupBoxButton("EDIT", true, buttonImageOptions5, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, null, -1),
-            new DevExpress.XtraEditors.ButtonsPanelControl.GroupBoxButton("LOG", true, buttonImageOptions6, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, null, -1),
-            new DevExpress.XtraEditors.ButtonsPanelControl.GroupBoxButton("FOLDER", true, buttonImageOptions7, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, null, -1),
-            new DevExpress.XtraEditors.ButtonsPanelControl.GroupBoxButton("HMSOURCE", true, buttonImageOptions8, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, null, -1)});
+            new DevExpress.XtraEditors.ButtonsPanelControl.GroupBoxButton("EDIT", true, buttonImageOptions1, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, null, -1),
+            new DevExpress.XtraEditors.ButtonsPanelControl.GroupBoxButton("LOG", true, buttonImageOptions2, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, null, -1),
+            new DevExpress.XtraEditors.ButtonsPanelControl.GroupBoxButton("FOLDER", true, buttonImageOptions3, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, null, -1),
+            new DevExpress.XtraEditors.ButtonsPanelControl.GroupBoxButton("HMSOURCE", true, buttonImageOptions4, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, null, -1)});
             this.groupControl1.CustomHeaderButtonsLocation = DevExpress.Utils.GroupElementLocation.BeforeText;
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupControl1.Location = new System.Drawing.Point(0, 0);
@@ -3733,15 +3736,19 @@
             // 
             this.navigationPage9.Caption = " ";
             this.navigationPage9.Controls.Add(this.tabPane3);
-            customHeaderButtonImageOptions45.ImageUri.Uri = "ExportToXML";
-            serializableAppearanceObject49.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject49.Options.UseFont = true;
-            customHeaderButtonImageOptions46.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions46.Image")));
-            serializableAppearanceObject50.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject50.Options.UseFont = true;
+            customHeaderButtonImageOptions22.ImageUri.Uri = "ExportToXML";
+            serializableAppearanceObject26.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject26.Options.UseFont = true;
+            customHeaderButtonImageOptions23.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions23.Image")));
+            serializableAppearanceObject27.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject27.Options.UseFont = true;
+            customHeaderButtonImageOptions24.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions24.Image")));
+            serializableAppearanceObject28.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject28.Options.UseFont = true;
             this.navigationPage9.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("GET DATA", true, customHeaderButtonImageOptions45, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject49, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("GET CHECKIN", true, customHeaderButtonImageOptions46, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject50, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("GET DATA", true, customHeaderButtonImageOptions22, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject26, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("GET CHECKIN", true, customHeaderButtonImageOptions23, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject27, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("XML TRƯỚC RA VIỆN", true, customHeaderButtonImageOptions24, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject28, null, -1)});
             this.navigationPage9.Name = "navigationPage9";
             this.navigationPage9.PageText = "XML 130";
             this.navigationPage9.Size = new System.Drawing.Size(1055, 476);
@@ -3965,59 +3972,59 @@
             this.gridColumn54,
             this.gridColumn55});
             this.gridView22.CustomizationFormBounds = new System.Drawing.Rectangle(612, 137, 264, 300);
-            gridFormatRule1.ApplyToRow = true;
-            gridFormatRule1.Name = "CHECK_SUM_THANHTIENBV";
-            formatConditionRuleValue1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            formatConditionRuleValue1.Appearance.Options.UseBackColor = true;
-            formatConditionRuleValue1.Expression = "[T_BHTT] + [T_BNCCT] + [T_BNTT] <> [THANH_TIEN_BV]";
-            gridFormatRule1.Rule = formatConditionRuleValue1;
-            gridFormatRule2.ApplyToRow = true;
-            gridFormatRule2.Name = "CHECK_SUM_THANHTIENBH";
-            formatConditionRuleValue7.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            formatConditionRuleValue7.Appearance.Options.UseBackColor = true;
-            formatConditionRuleValue7.Expression = "[T_BHTT] + [T_BNCCT] <> [THANH_TIEN_BH]";
-            gridFormatRule2.Rule = formatConditionRuleValue7;
-            gridFormatRule19.Column = this.gridColumn48;
-            gridFormatRule19.ColumnApplyTo = this.gridColumn48;
-            gridFormatRule19.Name = "CHECK_NULL_MABACSI";
-            formatConditionRuleExpression1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            formatConditionRuleExpression1.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression1.Expression = "IsNullOrEmpty([MA_BAC_SI]) = True";
-            gridFormatRule19.Rule = formatConditionRuleExpression1;
-            gridFormatRule20.Column = this.gridColumn51;
-            gridFormatRule20.ColumnApplyTo = this.gridColumn51;
-            gridFormatRule20.Name = "CHECK_NULL_NGAY_TH_YL";
-            formatConditionRuleExpression13.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            formatConditionRuleExpression13.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression13.Expression = "IsNullOrEmpty([NGAY_TH_YL]) = True";
-            gridFormatRule20.Rule = formatConditionRuleExpression13;
-            gridFormatRule21.Column = this.gridColumn50;
-            gridFormatRule21.ColumnApplyTo = this.gridColumn50;
-            gridFormatRule21.Name = "CHECK_NULL_NGAY_YL";
-            formatConditionRuleExpression14.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            formatConditionRuleExpression14.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression14.Expression = "IsNullOrEmpty([NGAY_YL]) = True";
-            gridFormatRule21.Rule = formatConditionRuleExpression14;
-            gridFormatRule22.Column = this.gridColumn44;
-            gridFormatRule22.ColumnApplyTo = this.gridColumn44;
-            gridFormatRule22.Name = "BNTT_AM";
-            formatConditionRuleExpression15.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            formatConditionRuleExpression15.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression15.Expression = "[T_BHTT] < 0";
-            gridFormatRule22.Rule = formatConditionRuleExpression15;
-            gridFormatRule23.ApplyToRow = true;
-            gridFormatRule23.Name = "Format1";
-            formatConditionRuleExpression16.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            formatConditionRuleExpression16.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression16.Expression = "Round([THANH_TIEN_BH] * [MUC_HUONG] / 100, 2) <> [T_BHTT]";
-            gridFormatRule23.Rule = formatConditionRuleExpression16;
-            this.gridView22.FormatRules.Add(gridFormatRule1);
-            this.gridView22.FormatRules.Add(gridFormatRule2);
-            this.gridView22.FormatRules.Add(gridFormatRule19);
-            this.gridView22.FormatRules.Add(gridFormatRule20);
-            this.gridView22.FormatRules.Add(gridFormatRule21);
-            this.gridView22.FormatRules.Add(gridFormatRule22);
-            this.gridView22.FormatRules.Add(gridFormatRule23);
+            gridFormatRule3.ApplyToRow = true;
+            gridFormatRule3.Name = "CHECK_SUM_THANHTIENBV";
+            formatConditionRuleValue2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            formatConditionRuleValue2.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue2.Expression = "[T_BHTT] + [T_BNCCT] + [T_BNTT] <> [THANH_TIEN_BV]";
+            gridFormatRule3.Rule = formatConditionRuleValue2;
+            gridFormatRule4.ApplyToRow = true;
+            gridFormatRule4.Name = "CHECK_SUM_THANHTIENBH";
+            formatConditionRuleValue3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            formatConditionRuleValue3.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue3.Expression = "[T_BHTT] + [T_BNCCT] <> [THANH_TIEN_BH]";
+            gridFormatRule4.Rule = formatConditionRuleValue3;
+            gridFormatRule5.Column = this.gridColumn48;
+            gridFormatRule5.ColumnApplyTo = this.gridColumn48;
+            gridFormatRule5.Name = "CHECK_NULL_MABACSI";
+            formatConditionRuleExpression2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            formatConditionRuleExpression2.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression2.Expression = "IsNullOrEmpty([MA_BAC_SI]) = True";
+            gridFormatRule5.Rule = formatConditionRuleExpression2;
+            gridFormatRule6.Column = this.gridColumn51;
+            gridFormatRule6.ColumnApplyTo = this.gridColumn51;
+            gridFormatRule6.Name = "CHECK_NULL_NGAY_TH_YL";
+            formatConditionRuleExpression3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            formatConditionRuleExpression3.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression3.Expression = "IsNullOrEmpty([NGAY_TH_YL]) = True";
+            gridFormatRule6.Rule = formatConditionRuleExpression3;
+            gridFormatRule7.Column = this.gridColumn50;
+            gridFormatRule7.ColumnApplyTo = this.gridColumn50;
+            gridFormatRule7.Name = "CHECK_NULL_NGAY_YL";
+            formatConditionRuleExpression4.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            formatConditionRuleExpression4.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression4.Expression = "IsNullOrEmpty([NGAY_YL]) = True";
+            gridFormatRule7.Rule = formatConditionRuleExpression4;
+            gridFormatRule8.Column = this.gridColumn44;
+            gridFormatRule8.ColumnApplyTo = this.gridColumn44;
+            gridFormatRule8.Name = "BNTT_AM";
+            formatConditionRuleExpression5.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            formatConditionRuleExpression5.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression5.Expression = "[T_BHTT] < 0";
+            gridFormatRule8.Rule = formatConditionRuleExpression5;
+            gridFormatRule9.ApplyToRow = true;
+            gridFormatRule9.Name = "Format1";
+            formatConditionRuleExpression6.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            formatConditionRuleExpression6.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression6.Expression = "Round([THANH_TIEN_BH] * [MUC_HUONG] / 100, 2) <> [T_BHTT]";
+            gridFormatRule9.Rule = formatConditionRuleExpression6;
+            this.gridView22.FormatRules.Add(gridFormatRule3);
+            this.gridView22.FormatRules.Add(gridFormatRule4);
+            this.gridView22.FormatRules.Add(gridFormatRule5);
+            this.gridView22.FormatRules.Add(gridFormatRule6);
+            this.gridView22.FormatRules.Add(gridFormatRule7);
+            this.gridView22.FormatRules.Add(gridFormatRule8);
+            this.gridView22.FormatRules.Add(gridFormatRule9);
             this.gridView22.GridControl = this.gridControl22;
             this.gridView22.GroupSummary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
             new DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Sum, "T_BHTT", this.gridColumn46, "{0:#,0.####}"),
@@ -4451,60 +4458,60 @@
             this.gridColumn100,
             this.gridColumn101});
             this.gridView23.CustomizationFormBounds = new System.Drawing.Rectangle(612, 137, 264, 300);
-            gridFormatRule3.ApplyToRow = true;
-            gridFormatRule3.Name = "CHECK_SUM_THANHTIENBV";
-            formatConditionRuleValue2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            formatConditionRuleValue2.Appearance.Options.UseBackColor = true;
-            formatConditionRuleValue2.Expression = "[T_BHTT] + [T_BNCCT] + [T_BNTT] <> [THANH_TIEN_BV]";
-            gridFormatRule3.Rule = formatConditionRuleValue2;
-            gridFormatRule4.ApplyToRow = true;
-            gridFormatRule4.Name = "CHECK_SUMG_THANHTIENBH";
-            formatConditionRuleValue3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            formatConditionRuleValue3.Appearance.Options.UseBackColor = true;
-            formatConditionRuleValue3.Expression = "[T_BHTT] + [T_BNCCT] <> [THANH_TIEN_BH]";
-            gridFormatRule4.Rule = formatConditionRuleValue3;
-            gridFormatRule5.Column = this.gridColumn86;
-            gridFormatRule5.ColumnApplyTo = this.gridColumn86;
-            gridFormatRule5.Name = "CHECK_NULL_MABACSI";
-            formatConditionRuleExpression2.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            formatConditionRuleExpression2.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression2.Expression = "IsNullOrEmpty([MA_BAC_SI]) = True";
-            gridFormatRule5.Rule = formatConditionRuleExpression2;
-            gridFormatRule6.Column = this.gridColumn89;
-            gridFormatRule6.ColumnApplyTo = this.gridColumn89;
-            gridFormatRule6.Name = "CHECK_NULL_NGAY_TH_YL";
-            formatConditionRuleExpression3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            formatConditionRuleExpression3.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression3.Expression = "IsNullOrEmpty([NGAY_TH_YL]) = True";
-            gridFormatRule6.Rule = formatConditionRuleExpression3;
-            gridFormatRule7.Column = this.gridColumn90;
-            gridFormatRule7.ColumnApplyTo = this.gridColumn90;
-            gridFormatRule7.Name = "CHECK_NULL_NGUOI_THUC_HIEN";
-            formatConditionRuleExpression4.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            formatConditionRuleExpression4.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression4.Expression = "IsNullOrEmpty([NGUOI_THUC_HIEN]) = True";
-            gridFormatRule7.Rule = formatConditionRuleExpression4;
-            gridFormatRule8.Column = this.gridColumn93;
-            gridFormatRule8.ColumnApplyTo = this.gridColumn93;
-            gridFormatRule8.Name = "CHECK_NULL_NGAY_KQ";
-            formatConditionRuleExpression5.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            formatConditionRuleExpression5.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression5.Expression = "IsNullOrEmpty([NGAY_KQ]) = True";
-            gridFormatRule8.Rule = formatConditionRuleExpression5;
-            gridFormatRule9.Column = this.gridColumn82;
-            gridFormatRule9.ColumnApplyTo = this.gridColumn82;
-            gridFormatRule9.Name = "Format0";
-            formatConditionRuleExpression6.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            formatConditionRuleExpression6.Appearance.Options.UseBackColor = true;
-            formatConditionRuleExpression6.Expression = "[T_BNTT] < 0";
-            gridFormatRule9.Rule = formatConditionRuleExpression6;
-            this.gridView23.FormatRules.Add(gridFormatRule3);
-            this.gridView23.FormatRules.Add(gridFormatRule4);
-            this.gridView23.FormatRules.Add(gridFormatRule5);
-            this.gridView23.FormatRules.Add(gridFormatRule6);
-            this.gridView23.FormatRules.Add(gridFormatRule7);
-            this.gridView23.FormatRules.Add(gridFormatRule8);
-            this.gridView23.FormatRules.Add(gridFormatRule9);
+            gridFormatRule10.ApplyToRow = true;
+            gridFormatRule10.Name = "CHECK_SUM_THANHTIENBV";
+            formatConditionRuleValue4.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            formatConditionRuleValue4.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue4.Expression = "[T_BHTT] + [T_BNCCT] + [T_BNTT] <> [THANH_TIEN_BV]";
+            gridFormatRule10.Rule = formatConditionRuleValue4;
+            gridFormatRule11.ApplyToRow = true;
+            gridFormatRule11.Name = "CHECK_SUMG_THANHTIENBH";
+            formatConditionRuleValue5.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            formatConditionRuleValue5.Appearance.Options.UseBackColor = true;
+            formatConditionRuleValue5.Expression = "[T_BHTT] + [T_BNCCT] <> [THANH_TIEN_BH]";
+            gridFormatRule11.Rule = formatConditionRuleValue5;
+            gridFormatRule12.Column = this.gridColumn86;
+            gridFormatRule12.ColumnApplyTo = this.gridColumn86;
+            gridFormatRule12.Name = "CHECK_NULL_MABACSI";
+            formatConditionRuleExpression7.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            formatConditionRuleExpression7.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression7.Expression = "IsNullOrEmpty([MA_BAC_SI]) = True";
+            gridFormatRule12.Rule = formatConditionRuleExpression7;
+            gridFormatRule13.Column = this.gridColumn89;
+            gridFormatRule13.ColumnApplyTo = this.gridColumn89;
+            gridFormatRule13.Name = "CHECK_NULL_NGAY_TH_YL";
+            formatConditionRuleExpression8.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            formatConditionRuleExpression8.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression8.Expression = "IsNullOrEmpty([NGAY_TH_YL]) = True";
+            gridFormatRule13.Rule = formatConditionRuleExpression8;
+            gridFormatRule14.Column = this.gridColumn90;
+            gridFormatRule14.ColumnApplyTo = this.gridColumn90;
+            gridFormatRule14.Name = "CHECK_NULL_NGUOI_THUC_HIEN";
+            formatConditionRuleExpression9.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            formatConditionRuleExpression9.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression9.Expression = "IsNullOrEmpty([NGUOI_THUC_HIEN]) = True";
+            gridFormatRule14.Rule = formatConditionRuleExpression9;
+            gridFormatRule15.Column = this.gridColumn93;
+            gridFormatRule15.ColumnApplyTo = this.gridColumn93;
+            gridFormatRule15.Name = "CHECK_NULL_NGAY_KQ";
+            formatConditionRuleExpression10.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            formatConditionRuleExpression10.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression10.Expression = "IsNullOrEmpty([NGAY_KQ]) = True";
+            gridFormatRule15.Rule = formatConditionRuleExpression10;
+            gridFormatRule16.Column = this.gridColumn82;
+            gridFormatRule16.ColumnApplyTo = this.gridColumn82;
+            gridFormatRule16.Name = "Format0";
+            formatConditionRuleExpression11.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            formatConditionRuleExpression11.Appearance.Options.UseBackColor = true;
+            formatConditionRuleExpression11.Expression = "[T_BNTT] < 0";
+            gridFormatRule16.Rule = formatConditionRuleExpression11;
+            this.gridView23.FormatRules.Add(gridFormatRule10);
+            this.gridView23.FormatRules.Add(gridFormatRule11);
+            this.gridView23.FormatRules.Add(gridFormatRule12);
+            this.gridView23.FormatRules.Add(gridFormatRule13);
+            this.gridView23.FormatRules.Add(gridFormatRule14);
+            this.gridView23.FormatRules.Add(gridFormatRule15);
+            this.gridView23.FormatRules.Add(gridFormatRule16);
             this.gridView23.GridControl = this.gridControl23;
             this.gridView23.GroupSummary.AddRange(new DevExpress.XtraGrid.GridSummaryItem[] {
             new DevExpress.XtraGrid.GridGroupSummaryItem(DevExpress.Data.SummaryItemType.Sum, "T_BHTT", this.gridColumn84, "{0:#,0.####}"),
@@ -6051,6 +6058,7 @@
             // 
             // panelControl9
             // 
+            this.panelControl9.Controls.Add(this.button7);
             this.panelControl9.Controls.Add(this.button5);
             this.panelControl9.Controls.Add(this.linkLabel4);
             this.panelControl9.Controls.Add(this.textEdit5);
@@ -6388,6 +6396,17 @@
             this.gridSplitContainer1.Name = "gridSplitContainer1";
             this.gridSplitContainer1.Size = new System.Drawing.Size(400, 400);
             this.gridSplitContainer1.TabIndex = 0;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(211, 3);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(66, 46);
+            this.button7.TabIndex = 27;
+            this.button7.Text = "ICD ngoại trú";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click_1);
             // 
             // XtraForm1
             // 
@@ -7105,5 +7124,6 @@
         private System.Windows.Forms.LinkLabel linkLabel4;
         private DevExpress.XtraEditors.TextEdit textEdit5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }

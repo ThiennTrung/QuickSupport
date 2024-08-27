@@ -186,6 +186,7 @@
     <Compile Include="FrmNoteUpdate.Designer.cs">
       <DependentUpon>FrmNoteUpdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Function\Helper.cs" />
     <Compile Include="Function\StringWriterWithEncoding.cs" />
     <Compile Include="Function\WorkSheetHelper.cs" />
     <Compile Include="InfoBenhnhan.cs">

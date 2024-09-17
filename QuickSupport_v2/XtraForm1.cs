@@ -1823,6 +1823,9 @@ namespace QuickSupport_v2
                 case 9:
                     action = "SDICHVU";
                     break;
+                case 10:
+                    action = "DMNHANVIEN";
+                    break;
 
             }
 

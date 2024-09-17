@@ -506,7 +506,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DzD9IKzomagbfrEjlrgU5Qr5r6cC6SEb/fTIRbxmZEI=</dsig:DigestValue>
+        <dsig:DigestValue>OStF9d3BMyXJ6lOOGBh47ocYyvrF+/V+7EKKBr550ec=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -522,13 +522,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="FileData\SqlQuery.json" size="75844">
+  <file name="FileData\SqlQuery.json" size="76824">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>uxoo3OqlGB8bAcet7CKgoJFXWs8qL1tw1SuAZHcPFHo=</dsig:DigestValue>
+      <dsig:DigestValue>jewKI3lJo3mzdrta5x9SUHvL6hr0mV+p3mOYK6K4ib0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="icon.ico" size="67646">

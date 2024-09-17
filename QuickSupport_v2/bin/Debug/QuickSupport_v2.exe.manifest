@@ -499,14 +499,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuickSupport_v2.exe" size="438272">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuickSupport_v2.exe" size="439296">
       <assemblyIdentity name="QuickSupport_v2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Ap4ZXEq+JXhERNg08VLKQ2WLSAfnbWPr+K25wUqtF9o=</dsig:DigestValue>
+        <dsig:DigestValue>DzD9IKzomagbfrEjlrgU5Qr5r6cC6SEb/fTIRbxmZEI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -522,13 +522,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="FileData\SqlQuery.json" size="74447">
+  <file name="FileData\SqlQuery.json" size="75844">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>czPEfG7chU8HUE+l7eLpoylLZOxu8t/fumxUEtT0OOw=</dsig:DigestValue>
+      <dsig:DigestValue>uxoo3OqlGB8bAcet7CKgoJFXWs8qL1tw1SuAZHcPFHo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="icon.ico" size="67646">

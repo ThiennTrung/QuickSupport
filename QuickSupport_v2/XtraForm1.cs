@@ -2912,7 +2912,11 @@ namespace QuickSupport_v2
         private void button5_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(textEdit5.Text))
+            {
+                MessagesBox("Nhập account vô kìa", false);
+                textEdit5.Focus();
                 return;
+            }
 
             QuerySql obj = querySqls.Where(x => x.code.Equals("DUPSHORTCUT")).First();
             FPT.Framework.Data.DataObject param = obj.param;
@@ -2952,6 +2956,26 @@ namespace QuickSupport_v2
             FPT.Framework.Data.DataObject param = new FPT.Framework.Data.DataObject();
             param["TIEPNHAN_ID"] = TIEPNHAN_ID.Text;
             QuickSupport_v2.Function.Helper.BindingData2gridview(connection,querySqls, gridControl31, param, "ICDNGOAITRU");
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textEdit5.Text))
+            {
+                MessagesBox("Nhập số thẻ BHYT vô kìa", false);
+                textEdit5.Focus();
+                return;
+            }
+            FPT.Framework.Data.DataObject param = new FPT.Framework.Data.DataObject();
+            param["SOTHE"] = textEdit5.Text;
+            QuickSupport_v2.Function.Helper.BindingData2gridview(connection, querySqls, gridControl31, param, "CKCHUAXNBHYT");
+        }
+
+        private void button11_Click_1(object sender, EventArgs e)
+        {
+            FPT.Framework.Data.DataObject param = new FPT.Framework.Data.DataObject();
+            param["TEXT"] = string.IsNullOrEmpty(textEdit5.Text) ? null : textEdit5.Text;
+            QuickSupport_v2.Function.Helper.BindingData2gridview(connection, querySqls, gridControl31, param, "TENBHBYCK");
         }
     }
 }

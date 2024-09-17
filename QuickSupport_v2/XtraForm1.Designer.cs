@@ -539,6 +539,8 @@
             this.gridView32 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.repositoryItemCheckEdit31 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.panelControl9 = new DevExpress.XtraEditors.PanelControl();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
@@ -572,7 +574,7 @@
             this.repositoryItemButtonEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.gridView29 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridSplitContainer1 = new DevExpress.XtraGrid.GridSplitContainer();
-            this.button7 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
@@ -6058,6 +6060,8 @@
             // 
             // panelControl9
             // 
+            this.panelControl9.Controls.Add(this.button11);
+            this.panelControl9.Controls.Add(this.button9);
             this.panelControl9.Controls.Add(this.button7);
             this.panelControl9.Controls.Add(this.button5);
             this.panelControl9.Controls.Add(this.linkLabel4);
@@ -6067,6 +6071,28 @@
             this.panelControl9.Name = "panelControl9";
             this.panelControl9.Size = new System.Drawing.Size(1055, 55);
             this.panelControl9.TabIndex = 1;
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(72, 3);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(66, 46);
+            this.button9.TabIndex = 28;
+            this.button9.Text = "TN chưa XNBH";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click_1);
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(360, 3);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(66, 46);
+            this.button7.TabIndex = 27;
+            this.button7.Text = "ICD ngoại trú";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click_1);
             // 
             // button5
             // 
@@ -6093,9 +6119,9 @@
             // textEdit5
             // 
             this.textEdit5.EditValue = "";
-            this.textEdit5.Location = new System.Drawing.Point(77, 17);
+            this.textEdit5.Location = new System.Drawing.Point(208, 17);
             this.textEdit5.Name = "textEdit5";
-            this.textEdit5.Size = new System.Drawing.Size(128, 20);
+            this.textEdit5.Size = new System.Drawing.Size(146, 20);
             this.textEdit5.TabIndex = 7;
             // 
             // panelControl3
@@ -6397,16 +6423,16 @@
             this.gridSplitContainer1.Size = new System.Drawing.Size(400, 400);
             this.gridSplitContainer1.TabIndex = 0;
             // 
-            // button7
+            // button11
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(211, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(66, 46);
-            this.button7.TabIndex = 27;
-            this.button7.Text = "ICD ngoại trú";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click_1);
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(140, 3);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(66, 46);
+            this.button11.TabIndex = 29;
+            this.button11.Text = "Tên BHYT theo chuyên khoa";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click_1);
             // 
             // XtraForm1
             // 
@@ -7125,5 +7151,7 @@
         private DevExpress.XtraEditors.TextEdit textEdit5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button11;
     }
 }

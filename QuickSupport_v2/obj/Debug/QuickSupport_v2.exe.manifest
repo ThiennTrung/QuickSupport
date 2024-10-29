@@ -439,6 +439,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraTreeMap.v22.2.UI.dll" size="58256">
+      <assemblyIdentity name="DevExpress.XtraTreeMap.v22.2.UI" version="22.2.3.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ykPsWwrq3ZGp1vazYwOdxGec0YZfEWABxqSYknh7oZQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraVerticalGrid.v22.2.dll" size="1270672">
       <assemblyIdentity name="DevExpress.XtraVerticalGrid.v22.2" version="22.2.3.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -499,14 +511,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuickSupport_v2.exe" size="439296">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuickSupport_v2.exe" size="449024">
       <assemblyIdentity name="QuickSupport_v2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OStF9d3BMyXJ6lOOGBh47ocYyvrF+/V+7EKKBr550ec=</dsig:DigestValue>
+        <dsig:DigestValue>5cixKYtA1o0lyGEH7b1Jpj+cRe2e32pazRLABsVlR0k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -522,13 +534,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="FileData\SqlQuery.json" size="76824">
+  <file name="FileData\SqlQuery.json" size="78252">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>jewKI3lJo3mzdrta5x9SUHvL6hr0mV+p3mOYK6K4ib0=</dsig:DigestValue>
+      <dsig:DigestValue>QqbrUciLVnCXGlUB7sqidrDTynJ3YwFuLQhPA0CllAk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="icon.ico" size="67646">

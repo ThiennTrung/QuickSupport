@@ -257,3 +257,5 @@ C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\obj\Debug\QuickSupport_v
 C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\obj\Debug\QuickSupport_v2.pdb
 C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\bin\Debug\DevExpress.XtraWizard.v22.2.dll
 C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\bin\Debug\DevExpress.XtraWizard.v22.2.xml
+C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\bin\Debug\DevExpress.XtraTreeMap.v22.2.UI.dll
+C:\Users\TrungVT21\Desktop\QuickSupport\QuickSupport_v2\bin\Debug\DevExpress.XtraTreeMap.v22.2.UI.xml

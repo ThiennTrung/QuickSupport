@@ -439,6 +439,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraTreeMap.v22.2.UI.dll" size="58256">
+      <assemblyIdentity name="DevExpress.XtraTreeMap.v22.2.UI" version="22.2.3.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ykPsWwrq3ZGp1vazYwOdxGec0YZfEWABxqSYknh7oZQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraVerticalGrid.v22.2.dll" size="1270672">
       <assemblyIdentity name="DevExpress.XtraVerticalGrid.v22.2" version="22.2.3.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -447,6 +459,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>rs6Yj/t84R9CmbQ3nQR7PzFoYa05ZE/2LBqeRoA5Af0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraWizard.v22.2.dll" size="104336">
+      <assemblyIdentity name="DevExpress.XtraWizard.v22.2" version="22.2.3.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WswfsVv/Aq3lr+zmaNhkl+uuEUyXRN/9nLlg1XMKn74=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -487,14 +511,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuickSupport_v2.exe" size="422912">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuickSupport_v2.exe" size="436224">
       <assemblyIdentity name="QuickSupport_v2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rX5yKEzDjqUag9L4H4YPav509eMgSl2jWFHDzPBbG+I=</dsig:DigestValue>
+        <dsig:DigestValue>yAsE2U4iGBZW3z49I7xs1IHW+SsUwbxRov78kIWRlgQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -510,13 +534,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="FileData\SqlQuery.json" size="63472">
+  <file name="FileData\SqlQuery.json" size="78252">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>y60uhLvrOpwhMs+B/enZqLOkIYXt3zAF5QFGolUNm6g=</dsig:DigestValue>
+      <dsig:DigestValue>QqbrUciLVnCXGlUB7sqidrDTynJ3YwFuLQhPA0CllAk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="icon.ico" size="67646">
@@ -528,13 +552,13 @@
       <dsig:DigestValue>xbrJ1PV74xcMGYHVKj1bzFYwwibUPZNYU0b8A3109uQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="QuickSupport_v2.exe.config" size="17730">
+  <file name="QuickSupport_v2.exe.config" size="17965">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>aodiXx3GB1c7v/Obf4xEgrDPI3mV0fpSINpMq2E057Y=</dsig:DigestValue>
+      <dsig:DigestValue>ZkADRzn57Q0ewiNFMerwKWsdeMcCC6fZhiVrdPqv5sM=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

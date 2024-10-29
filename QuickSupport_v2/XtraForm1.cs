@@ -25,6 +25,9 @@ using System.IO.Compression;
 using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Net.Http;
+using DevExpress.XtraEditors;
+using Newtonsoft.Json.Linq;
+using DevExpress.XtraEditors.ViewInfo;
 
 namespace QuickSupport_v2
 {
@@ -486,7 +489,7 @@ namespace QuickSupport_v2
             System.Windows.Forms.Clipboard.SetText(BENHAN_ID.Text);
             //this.MessagesBox("COPY BENHAN_ID", true);
         }
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private async void textBox1_TextChanged(object sender, EventArgs e)
         {
             _result = Generate(textBox1.Text);
             _content.Clear();
@@ -494,7 +497,21 @@ namespace QuickSupport_v2
             {
                 _content.Append(string.Format(formatResult, item.IdDao, item.Query, KEYGLOBAL.NewLine));
             }
+
+            //var client = new HttpClient();
+            //var request = new HttpRequestMessage(HttpMethod.Post, "https://sqlformat.org/api/v1/format");
+            //var collection = new List<KeyValuePair<string, string>>();
+            //collection.Add(new KeyValuePair<string, string>("sql", _content.ToString()));
+            //var content = new FormUrlEncodedContent(collection);
+            //request.Content = content;
+            //var response = await client.SendAsync(request);
+            //response.EnsureSuccessStatusCode();
+            //Console.WriteLine(await response.Content.ReadAsStringAsync());
+            //JObject json = JObject.Parse(a);
+            //Console.WriteLine(json["result"]);
+            //webBrowser1.DocumentText = json["result"].ToString();
             webBrowser1.DocumentText = _content.ToString().ToUpper();
+            var aaaa = webBrowser1.DocumentText;
         }
 
 
@@ -1361,22 +1378,41 @@ namespace QuickSupport_v2
 
                 webBrowser6.DocumentText = stringBuilder.ToString();
             }
-            else
+            else if (navigationPane1.SelectedPageIndex == 13)
             {
-                //System.Configuration.Configuration _configFile = null;
-                //System.ComponentModel.BindingList<HospitalSetting> _Hospitals = new System.ComponentModel.BindingList<HospitalSetting>();
-                //_configFile = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-                //if (_configFile.GetSection("HospitalSettings") is HospitalSettings section)
-                //{
-                //    foreach (HospitalSetting hospital in (ConfigurationElementCollection)section.Hospitals)
-                //    {
-                //        _Hospitals.Add(hospital);
-                //    }
-                //}
-                //_Hospitals.AllowNew = true;
-                //_Hospitals.AllowEdit = true;
+                stepProgressBar1.Items.Clear();
+                QuerySql obj = querySqls.Where(x => x.code.Equals("StepProcess")).First();
+                string queryString = obj.query;
+                FPT.Framework.Data.DataObject param = obj.param;
+                param["TIEPNHAN_ID"] = TIEPNHAN_ID.Text;
+
+                DataSet source = DbTool.DbTool.QueryStored(connection, "GetProcessBenhNhan", param);
+                DataTable table = source.Tables[0];
+
+
+                foreach (DataRow item in table.Rows)
+                {
+                    stepProgressBar1.Items.Add(CreateStepProgressBarItem(item.Field<string>("CAPTION"), item.Field<string>("KEY"), item.Field<string>("TIME"), item.Field<string>("DESCRIPTION"), StepProgressBarItemState.Active));
+                    //stepProgressBar1.Items.Add(CreateStepProgressBarItem("Ra viện", "", "Chỉ định dịch vụ ngoại trú", StepProgressBarItemState.Inactive));
+                    //stepProgressBar1.Items.Add(CreateStepProgressBarItem("Xác nhận BHYT", "", "test", StepProgressBarItemState.Inactive));
+                }
 
             }
+            else
+            {
+            }
+        }
+        private StepProgressBarItem CreateStepProgressBarItem(string caption, string caption1, string time, string Description, StepProgressBarItemState active)
+        {
+            var a = new StepProgressBarItem();
+            a.ContentBlock2.Caption = time;
+            a.ContentBlock2.Description = caption1;
+            
+            a.ContentBlock1.Caption = caption;
+
+            a.ContentBlock1.Description = Description;
+            a.State = active;
+            return a;
         }
         private string GenScriptStored(string storedname)
         {
@@ -1760,14 +1796,11 @@ namespace QuickSupport_v2
             {
                 var Khambenh_id = gridView8.GetRowCellValue(gridView8.GetSelectedRows().FirstOrDefault(), "KHAMBENH_ID").ToString();
                 textBox16.Text = gridView8.GetRowCellValue(gridView8.GetSelectedRows().FirstOrDefault(), "TRANGTHAIYLENH").ToString();
-                QuerySql obj = querySqls.Where(x => x.code.Equals("STHUOCNOITRU")).First();
-                string queryString = obj.query;
-                FPT.Framework.Data.DataObject param = obj.param;
 
+                FPT.Framework.Data.DataObject param = new FPT.Framework.Data.DataObject();
                 param["KHAMBENH_ID"] = Khambenh_id;
                 param["TIEPNHAN_ID"] = TIEPNHAN_ID.Text;
-                DataTable source = DbTool.DbTool.Query(connection, queryString, param);
-                gridControl9.DataSource = source;
+                QuickSupport_v2.Function.Helper.BindingData2gridview(connection, querySqls, gridControl9, param, "STHUOCNOITRU");
                 gridControl10.DataSource = null;
             }
         }
@@ -1855,13 +1888,10 @@ namespace QuickSupport_v2
             {
                 List<QuerySql> lstquery = new List<QuerySql>();
                 var ToaThuoc_id = gridView9.GetRowCellValue(gridView9.GetSelectedRows().FirstOrDefault(), "TOATHUOC_ID").ToString();
-                QuerySql obj = querySqls.Where(x => x.code.Equals("SCHUNGTU")).First();
-                string queryString = obj.query;
-                FPT.Framework.Data.DataObject param = obj.param;
 
+                FPT.Framework.Data.DataObject param = new FPT.Framework.Data.DataObject();
                 param["TOATHUOC_ID"] = ToaThuoc_id;
-                DataTable source = DbTool.DbTool.Query(connection, queryString, param);
-                gridControl10.DataSource = source;
+                QuickSupport_v2.Function.Helper.BindingData2gridview(connection, querySqls, gridControl10, param, "SCHUNGTU");
             }
             else { gridControl10.DataSource = null; }
         }
@@ -2694,7 +2724,7 @@ namespace QuickSupport_v2
             param["KHOXUAT_ID"] = txtKho.Text;
 
 
-            string queryString = obj.query + (checknhaptx.Checked ? " WHERE (x.soluong+ISNULL(t.soluong,0))<>n.soluong " : "");
+            string queryString = obj.query;
             DataTable source = DbTool.DbTool.Query(connection, queryString, param);
             gridControl28.DataSource = source;
         }
@@ -2979,6 +3009,46 @@ namespace QuickSupport_v2
             FPT.Framework.Data.DataObject param = new FPT.Framework.Data.DataObject();
             param["TEXT"] = string.IsNullOrEmpty(textEdit5.Text) ? null : textEdit5.Text;
             QuickSupport_v2.Function.Helper.BindingData2gridview(connection, querySqls, gridControl31, param, "TENBHBYCK");
+        }
+
+        private void stepProgressBar1_MouseClick(object sender, MouseEventArgs e)
+        {
+            StepProgressBar stepProgressBar = (StepProgressBar)sender;
+            StepProgressBarHitInfo info = stepProgressBar.CalcHitInfo(e.Location);
+            if (info.InItem)
+            {
+                //get the clicked item
+                StepProgressBarItem item = info.Item;
+                if (item.ContentBlock2.Caption.Equals(""))
+                {
+
+                }
+            }
+        }
+
+        private void simpleButton10_Click(object sender, EventArgs e)
+        {
+            gridView26.Columns.Clear();
+            var index = comboBox5.SelectedIndex;
+            if (comboBox5.SelectedIndex < 0)
+            {
+                MessagesBox("Chọn loại chứng từ", false);
+                return;
+            }
+            if (string.IsNullOrEmpty(textBox18.Text))
+            {
+                MessagesBox("Nhập mã chứng từ", false);
+                return;
+            }
+            
+            QuerySql obj = querySqls.Where(x => x.code.Equals("CHECKCHANDOANCT")).First();
+            string queryString = obj.query;
+            FPT.Framework.Data.DataObject param = obj.param;
+            param["MACHUNGTU"] = textBox18.Text;
+            param["LOAICHUNGTU"] = comboBox5.SelectedIndex;
+            DataTable source = DbTool.DbTool.Query(connection, queryString, param);
+            gridControl26.DataSource = source;
+            gridView26.BestFitColumns();
         }
     }
 }

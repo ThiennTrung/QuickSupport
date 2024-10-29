@@ -1,0 +1,1 @@
+﻿2024-10-29 10:58:22,096 [1] ERROR QuickSupport_v2.Program - After parsing a value an unexpected character was encountered: ". Path '[84].query', line 614, position 879.

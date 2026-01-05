@@ -83,6 +83,7 @@ namespace QuickSupport_v2
         public string MABENHVIEN = string.Empty;
         public string myConnectionVal = string.Empty;
         public List<QuerySql> querySqls = new List<QuerySql>();
+        public List<HospitalIP> ListIP = new List<HospitalIP>();
         public SqlConnection connection = null;
         static readonly Regex trimmer = new Regex(@"\s\s+");
 
@@ -272,9 +273,9 @@ namespace QuickSupport_v2
             }
             else
             {
-                string filePath = Path.Combine(Environment.CurrentDirectory, @"FileData\\SqlQuery.json");
                 try
                 {
+                    string filePath = Path.Combine(Environment.CurrentDirectory, @"FileData\\SqlQuery.json");
                     using (StreamReader r = new StreamReader(filePath))
                     {
                         json = r.ReadToEnd();
@@ -287,7 +288,23 @@ namespace QuickSupport_v2
                     throw;
                 }
             }
-            
+
+            string filePath2 = Path.Combine(Environment.CurrentDirectory, @"FileData\\Hospitals.json");
+            using (StreamReader r = new StreamReader(filePath2))
+            {
+                string json2 = r.ReadToEnd();
+                ListIP = JsonConvert.DeserializeObject<List<HospitalIP>>(json2);
+            }
+            comboBox2.DisplayMember = "TENBENHVIEN";
+            comboBox2.ValueMember = "MABENHVIEN";
+            comboBox2.DataSource = ListIP;
+
+
+            comboBox6.DisplayMember = "TENBENHVIEN";
+            comboBox6.ValueMember = "MABENHVIEN";
+            comboBox6.DataSource = ListIP;
+
+
         }
         static async Task<string> FetchDataFromAPIWithHeaders(string apiUrl,string Master,string Access)
         {
@@ -1332,7 +1349,11 @@ namespace QuickSupport_v2
         }
         private void navigationPane1_SelectedPageIndexChanged(object sender, EventArgs e)
         {
-            if (navigationPane1.SelectedPageIndex == 7)
+            if (ckVTB.SelectedPageIndex == 5)
+            {
+                //comboBox6.SelectedIndex = comboBox6.Items.IndexOf(MABENHVIEN);
+            }
+            else if (ckVTB.SelectedPageIndex == 7)
             {
                 textBox2.Text = section.Hospitals.Getvalue("NOTE1").VALUE.ToString();
                 textBox4.Text = section.Hospitals.Getvalue("NOTE2").VALUE.ToString();
@@ -1341,7 +1362,6 @@ namespace QuickSupport_v2
 
                 textBox10.Text = section.Hospitals.Getvalue("NOTE5").VALUE.ToString();
                 textBox11.Text = section.Hospitals.Getvalue("NOTE6").VALUE.ToString();
-                toggleSwitch3_Toggled(null, null);
 
                 DataTable dt = new DataTable();
                 dt.Columns.Add("TEXT");
@@ -1349,23 +1369,30 @@ namespace QuickSupport_v2
                 dt.Columns.Add("VALUE");
                 dt.Columns.Add("ENVI");
                 dt.Columns.Add("ISPRO");
-
-                var server = from HospitalSetting s in section.Hospitals select s;
-                var a = server.Where(x => x.GROUP.Equals("RUN_HIS")).ToList();
-                foreach (var item in a)
+                string path = section.Hospitals.Getvalue("PATH_RUNAPP").VALUE.ToString(); 
+                try
                 {
-                    DataRow _ravi = dt.NewRow();
-                    _ravi["TEXT"] = item.TEXT;
-                    _ravi["KEY"] = item.KEY;
-                    _ravi["VALUE"] = item.VALUE;
-                    _ravi["ENVI"] = item.KEY.EndsWith("PRO") ? "PRODUCTION" : "STAGING";
-                    _ravi["ISPRO"] = item.KEY.EndsWith("PRO") ? true : false;
-                    dt.Rows.Add(_ravi);
+                    foreach (var item in ListIP)
+                    {
+                        DataRow _ravi = dt.NewRow();
+                        _ravi["TEXT"] = item.TENBENHVIEN;
+                        _ravi["KEY"] = item.CLIENT_APPNAME;
+                        _ravi["VALUE"] = Path.Combine(path, item.CLIENT_APPNAME) + ".appref-ms";
+                        _ravi["ENVI"] = item.IS_PRODUCTION ? "PRODUCTION" : "STAGING";
+                        _ravi["ISPRO"] = item.IS_PRODUCTION;
+                        dt.Rows.Add(_ravi);
+                    }
+                    gridControl29.DataSource = dt;
+                    gridView30.Columns["KEY"].Visible = false;
+                    gridView30.Columns["ENVI"].Group();
                 }
-                gridControl29.DataSource = dt;
-                gridView30.Columns["ENVI"].Group();
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    throw;
+                }
             }
-            else if (navigationPane1.SelectedPageIndex == 9)
+            else if (ckVTB.SelectedPageIndex == 9)
             {
                 //webBrowser6.DocumentText = null;
                 string storedname = string.IsNullOrEmpty(BENHAN_ID.Text) ? "eClaim_NgoaiTru_TT130" : "eClaim_NoiTru_DTNT_TT130";
@@ -1378,26 +1405,26 @@ namespace QuickSupport_v2
 
                 webBrowser6.DocumentText = stringBuilder.ToString();
             }
-            else if (navigationPane1.SelectedPageIndex == 13)
-            {
-                stepProgressBar1.Items.Clear();
-                QuerySql obj = querySqls.Where(x => x.code.Equals("StepProcess")).First();
-                string queryString = obj.query;
-                FPT.Framework.Data.DataObject param = obj.param;
-                param["TIEPNHAN_ID"] = TIEPNHAN_ID.Text;
+            //else if (navigationPane1.SelectedPageIndex == 13)
+            //{
+            //    stepProgressBar1.Items.Clear();
+            //    QuerySql obj = querySqls.Where(x => x.code.Equals("StepProcess")).First();
+            //    string queryString = obj.query;
+            //    FPT.Framework.Data.DataObject param = obj.param;
+            //    param["TIEPNHAN_ID"] = TIEPNHAN_ID.Text;
 
-                DataSet source = DbTool.DbTool.QueryStored(connection, "GetProcessBenhNhan", param);
-                DataTable table = source.Tables[0];
+            //    DataSet source = DbTool.DbTool.QueryStored(connection, "GetProcessBenhNhan", param);
+            //    DataTable table = source.Tables[0];
 
 
-                foreach (DataRow item in table.Rows)
-                {
-                    stepProgressBar1.Items.Add(CreateStepProgressBarItem(item.Field<string>("CAPTION"), item.Field<string>("KEY"), item.Field<string>("TIME"), item.Field<string>("DESCRIPTION"), StepProgressBarItemState.Active));
-                    //stepProgressBar1.Items.Add(CreateStepProgressBarItem("Ra viện", "", "Chỉ định dịch vụ ngoại trú", StepProgressBarItemState.Inactive));
-                    //stepProgressBar1.Items.Add(CreateStepProgressBarItem("Xác nhận BHYT", "", "test", StepProgressBarItemState.Inactive));
-                }
+            //    foreach (DataRow item in table.Rows)
+            //    {
+            //        stepProgressBar1.Items.Add(CreateStepProgressBarItem(item.Field<string>("CAPTION"), item.Field<string>("KEY"), item.Field<string>("TIME"), item.Field<string>("DESCRIPTION"), StepProgressBarItemState.Active));
+            //        //stepProgressBar1.Items.Add(CreateStepProgressBarItem("Ra viện", "", "Chỉ định dịch vụ ngoại trú", StepProgressBarItemState.Inactive));
+            //        //stepProgressBar1.Items.Add(CreateStepProgressBarItem("Xác nhận BHYT", "", "test", StepProgressBarItemState.Inactive));
+            //    }
 
-            }
+            //}
             else
             {
             }
@@ -1499,14 +1526,6 @@ namespace QuickSupport_v2
             System.Windows.Forms.Clipboard.SetText(textBox11.Text);
         }
 
-
-
-        private void button40_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrEmpty(textBox10.Text))
-                return;
-            System.Windows.Forms.Clipboard.SetText(textBox10.Text);
-        }
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox2.SelectedIndex == -1)
@@ -1515,154 +1534,27 @@ namespace QuickSupport_v2
                 this.textBox8.Text = null; // remote
                 this.textBox9.Text = null; // Mã BV
                 this.linkLabel3.Text = null;
-                this.linkLabel2.Text = null;
+                this.textBox12.Text = null;
+                this.textBox13.Text = null;
+                this.textBox15.Text = null;
+                this.textBox17.Text = null;
                 return;
             }
-            var reader = new AppSettingsReader();
-            string code = comboBox2.SelectedValue.ToString();
 
-            switch (code)
+            HospitalIP curr = comboBox2.SelectedItem as HospitalIP;
+            if (curr != null)
             {
-                case "DN_PRO":
-                    this.textBox7.Text = section.Hospitals.Getvalue("DN_PRO_DATABASE").VALUE.ToString(); // Database
-                    this.textBox8.Text = section.Hospitals.Getvalue("DN_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    this.textBox9.Text = section.Hospitals.Getvalue(code).BENHVIEN_ID.ToString(); // Mã BV
-                    this.linkLabel3.Text = section.Hospitals.Getvalue("DN_PRO_REPORT").VALUE.ToString(); // report
-                    this.linkLabel2.Text = section.Hospitals.Getvalue("DN_PRO_DOWNLOAD").VALUE.ToString(); // download
-                    break;
-                case "DN_STA":
-                    this.textBox7.Text = section.Hospitals.Getvalue("DN_STA_DATABASE").VALUE.ToString(); // Database
-                    this.textBox8.Text = section.Hospitals.Getvalue("DN_STA_SERVER_APP").VALUE.ToString(); // remote
-                    this.textBox9.Text = section.Hospitals.Getvalue(code).BENHVIEN_ID.ToString(); // Mã BV
-                    this.linkLabel3.Text = string.Empty; // report
-                    this.linkLabel2.Text = section.Hospitals.Getvalue("DN_STA_DOWNLOAD").VALUE.ToString(); // download
-                    break;
-                case "DL_PRO":
-                    this.textBox7.Text = section.Hospitals.Getvalue("DL_PRO_DATABASE").VALUE.ToString(); // Database
-                    this.textBox8.Text = section.Hospitals.Getvalue("DL_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    this.textBox9.Text = section.Hospitals.Getvalue(code).BENHVIEN_ID.ToString(); // Mã BV
-                    this.linkLabel3.Text = section.Hospitals.Getvalue("DL_PRO_REPORT").VALUE.ToString(); // report
-                    this.linkLabel2.Text = section.Hospitals.Getvalue("DL_PRO_DOWNLOAD").VALUE.ToString(); // download
-                    break;
-                case "DL_STA":
-                    this.textBox7.Text = section.Hospitals.Getvalue("DL_STA_DATABASE").VALUE.ToString(); // Database
-                    this.textBox8.Text = section.Hospitals.Getvalue("DL_STA_SERVER_APP").VALUE.ToString(); // remote
-                    this.textBox9.Text = section.Hospitals.Getvalue(code).BENHVIEN_ID.ToString(); // Mã BV
-                    this.linkLabel3.Text = string.Empty; // report
-                    this.linkLabel2.Text = section.Hospitals.Getvalue("DL_STA_DOWNLOAD").VALUE.ToString(); // download
-                    break;
-                case "CL_PRO":
-                    this.textBox7.Text = section.Hospitals.Getvalue("CL_PRO_DATABASE").VALUE.ToString(); // Database
-                    this.textBox8.Text = section.Hospitals.Getvalue("CL_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    this.textBox9.Text = section.Hospitals.Getvalue(code).BENHVIEN_ID.ToString(); // Mã BV
-                    this.linkLabel3.Text = section.Hospitals.Getvalue("CL_PRO_REPORT").VALUE.ToString(); // report
-                    this.linkLabel2.Text = section.Hospitals.Getvalue("CL_PRO_DOWNLOAD").VALUE.ToString(); // download
-                    break;
-                case "CL_STA":
-                    this.textBox7.Text = section.Hospitals.Getvalue("CL_STA_DATABASE").VALUE.ToString(); // Database
-                    this.textBox8.Text = section.Hospitals.Getvalue("CL_STA_SERVER_APP").VALUE.ToString(); // remote
-                    this.textBox9.Text = section.Hospitals.Getvalue(code).BENHVIEN_ID.ToString(); // Mã BV
-                    this.linkLabel3.Text = string.Empty; // report
-                    this.linkLabel2.Text = section.Hospitals.Getvalue("CL_STA_DOWNLOAD").VALUE.ToString(); // download
-                    break;
+                this.textBox7.Text = curr.IP_DATABASE; // Database
+                this.textBox8.Text = curr.IP_REMOTE; // remote
+                this.textBox9.Text = curr.MABENHVIEN; // Mã BV
+                this.linkLabel3.Text = curr.LINK_REPORT; // report
+                this.textBox12.Text = curr.IP_API;
 
-                case "SG_PRO":
-                    this.textBox7.Text = section.Hospitals.Getvalue("SG_PRO_DATABASE").VALUE.ToString(); // Database
-                    this.textBox8.Text = section.Hospitals.Getvalue("SG_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    this.textBox9.Text = section.Hospitals.Getvalue(code).BENHVIEN_ID.ToString(); // Mã BV
-                    this.linkLabel3.Text = section.Hospitals.Getvalue("SG_PRO_REPORT").VALUE.ToString(); // report
-                    this.linkLabel2.Text = section.Hospitals.Getvalue("SG_PRO_DOWNLOAD").VALUE.ToString(); // download
-                    break;
-                case "SG_STA":
-                    this.textBox7.Text = section.Hospitals.Getvalue("SG_STA_DATABASE").VALUE.ToString(); // Database
-                    this.textBox8.Text = section.Hospitals.Getvalue("SG_STA_SERVER_APP").VALUE.ToString(); // remote
-                    this.textBox9.Text = section.Hospitals.Getvalue(code).BENHVIEN_ID.ToString(); // Mã BV
-                    this.linkLabel3.Text = section.Hospitals.Getvalue("SG_STA_REPORT").VALUE.ToString(); // report
-                    this.linkLabel2.Text = section.Hospitals.Getvalue("SG_STA_DOWNLOAD").VALUE.ToString(); // download
-                    break;
-                case "MAT_PRO":
-                    this.textBox7.Text = section.Hospitals.Getvalue("MAT_PRO_DATABASE").VALUE.ToString(); // Database
-                    this.textBox8.Text = section.Hospitals.Getvalue("MAT_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    this.textBox9.Text = section.Hospitals.Getvalue(code).BENHVIEN_ID.ToString(); // Mã BV
-                    this.linkLabel3.Text = section.Hospitals.Getvalue("MAT_PRO_REPORT").VALUE.ToString(); // report
-                    this.linkLabel2.Text = section.Hospitals.Getvalue("MAT_PRO_DOWNLOAD").VALUE.ToString(); // download
-                    break;
-                case "MAT_STA":
-                    this.textBox7.Text = section.Hospitals.Getvalue("MAT_STA_DATABASE").VALUE.ToString(); // Database
-                    this.textBox8.Text = section.Hospitals.Getvalue("MAT_STA_SERVER_APP").VALUE.ToString(); // remote
-                    this.textBox9.Text = section.Hospitals.Getvalue(code).BENHVIEN_ID.ToString(); // Mã BV
-                    this.linkLabel3.Text = section.Hospitals.Getvalue("MAT_STA_REPORT").VALUE.ToString(); // report
-                    this.linkLabel2.Text = section.Hospitals.Getvalue("MAT_STA_DOWNLOAD").VALUE.ToString(); // download
-                    break;
-                case "VINH_PRO":
-                    this.textBox7.Text = section.Hospitals.Getvalue("VINH_PRO_DATABASE").VALUE.ToString(); // Database
-                    this.textBox8.Text = section.Hospitals.Getvalue("VINH_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    this.textBox9.Text = section.Hospitals.Getvalue(code).BENHVIEN_ID.ToString(); // Mã BV
-                    this.linkLabel3.Text = section.Hospitals.Getvalue("VINH_PRO_REPORT").VALUE.ToString(); // report
-                    this.linkLabel2.Text = section.Hospitals.Getvalue("VINH_PRO_DOWNLOAD").VALUE.ToString(); // download
-                    break;
-                case "VINH_STA":
-                    this.textBox7.Text = section.Hospitals.Getvalue("VINH_STA_DATABASE").VALUE.ToString(); // Database
-                    this.textBox8.Text = section.Hospitals.Getvalue("VINH_STA_SERVER_APP").VALUE.ToString(); // remote
-                    this.textBox9.Text = section.Hospitals.Getvalue(code).BENHVIEN_ID.ToString(); // Mã BV
-                    this.linkLabel3.Text = section.Hospitals.Getvalue("VINH_STA_REPORT").VALUE.ToString(); // report
-                    this.linkLabel2.Text = section.Hospitals.Getvalue("VINH_STA_DOWNLOAD").VALUE.ToString(); // download
-                    break;
-                case "VANPHUC_PRO":
-                    this.textBox8.Text = section.Hospitals.Getvalue("VANPHUC_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "VANPHUC_STA":
-                    this.textBox8.Text = section.Hospitals.Getvalue("VANPHUC_STA_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "THUDUC_PRO":
-                    this.textBox8.Text = section.Hospitals.Getvalue("THUDUC_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "THUDUC_STA":
-                    this.textBox8.Text = section.Hospitals.Getvalue("THUDUC_STA_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "DONGNAI_PRO":
-                    this.textBox8.Text = section.Hospitals.Getvalue("DONGNAI_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "DONGNAI_STA":
-                    this.textBox8.Text = section.Hospitals.Getvalue("DONGNAI_STA_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "BINHDUONG_PRO":
-                    this.textBox8.Text = section.Hospitals.Getvalue("BINHDUONG_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "BINHDUONG_STA":
-                    this.textBox8.Text = section.Hospitals.Getvalue("BINHDUONG_STA_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "BINHDUONGC_PRO":
-                    this.textBox8.Text = section.Hospitals.Getvalue("BINHDUONGC_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "BINHDUONGC_STA":
-                    this.textBox8.Text = section.Hospitals.Getvalue("BINHDUONGC_STA_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "PDR_PRO":
-                    this.textBox8.Text = section.Hospitals.Getvalue("PDR_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "PDR_STA":
-                    this.textBox8.Text = section.Hospitals.Getvalue("PDR_STA_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "TMSGC_PRO":
-                    this.textBox8.Text = section.Hospitals.Getvalue("TMSGC_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "TMSGC_STA":
-                    this.textBox8.Text = section.Hospitals.Getvalue("TMSGC_STA_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "HMMH_PRO":
-                    this.textBox8.Text = section.Hospitals.Getvalue("HMMH_PRO_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                case "HMMH_STA":
-                    this.textBox8.Text = section.Hospitals.Getvalue("HMMH_STA_SERVER_APP").VALUE.ToString(); // remote
-                    break;
-                default:
-                    this.textBox7.Text = null; // Database
-                    this.textBox8.Text = null; // remote
-                    this.textBox9.Text = null; // Mã BV
-                    this.linkLabel3.Text = null;
-                    this.linkLabel2.Text = null;
-                    break;
+                this.textBox13.Text = curr.IP_ELASTIC;
+                this.textBox15.Text = curr.ELASTICI_INDEXPREFIX;
+                this.textBox17.Text = curr.NOTE;
+
+                //this.linkLabel2.Text = curr.LINK_DOWNAPP; // download
             }
         }
 
@@ -1704,12 +1596,12 @@ namespace QuickSupport_v2
             Process.Start(this.linkLabel3.Text);
         }
 
-        private void linkLabel2_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            if (string.IsNullOrEmpty(this.linkLabel2.Text))
-                return;
-            Process.Start(this.linkLabel2.Text);
-        }
+        //private void linkLabel2_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        //{
+        //    if (string.IsNullOrEmpty(this.linkLabel2.Text))
+        //        return;
+        //    Process.Start(this.linkLabel2.Text);
+        //}
 
         private void gridView13_FocusedRowChanged(object sender, FocusedRowChangedEventArgs e)
         {
@@ -1785,10 +1677,7 @@ namespace QuickSupport_v2
                 throw;
             }
         }
-        private void button45_Click(object sender, EventArgs e)
-        {
-            Copyfile("CLDEV", "CL DEV");
-        }
+      
 
         private void gridControl8_Click(object sender, EventArgs e)
         {
@@ -2136,15 +2025,7 @@ namespace QuickSupport_v2
             ds.ReadXml(xmlReader);
             return ds.Tables[1];
         }
-        private void button47_Click(object sender, EventArgs e)
-        {
-            Copyfile("DNDEV", "DN DEV");
-        }
 
-        private void button48_Click(object sender, EventArgs e)
-        {
-            Copyfile("DLDEV", "DL DEV");
-        }
 
         //private void toggleSwitch2_Toggled(object sender, EventArgs e)
         //{
@@ -2189,63 +2070,16 @@ namespace QuickSupport_v2
             rdcProcess.Start();
         }
 
-        private void toggleSwitch3_Toggled(object sender, EventArgs e)
-        {
-            var lstPRO = new List<ObjConnect>
-            {
-                new ObjConnect("SG_PRO", "Sài Gòn PRO"),
+        //private void toggleSwitch3_Toggled(object sender, EventArgs e)
+        //{
+        //    var lstSTA = listIP.Where(x => !x.IS_PRODUCTION );
+        //    var lstPRO = listIP.Where(x =>  x.IS_PRODUCTION);
 
-                new ObjConnect("MAT_PRO", "Mắt PRO"),
-
-                new ObjConnect("VINH_PRO", "Vinh PRO"),
-
-                new ObjConnect("DN_PRO", "Đà Nẵng PRO"),
-
-                new ObjConnect("DL_PRO", "Đà Lạt PRO"),
-
-                new ObjConnect("CL_PRO", "Cửu Long PRO"),
-
-                new ObjConnect("VANPHUC_PRO", "Vạn Phúc 2 PRO"),
-                new ObjConnect("THUDUC_PRO", "Thủ Đức PRO"),
-                new ObjConnect("DONGNAI_PRO", "Đồng Nai PRO"),
-                new ObjConnect("BINHDUONG_PRO", "Bình Dương PRO"),
-                new ObjConnect("BINHDUONGC_PRO", "Bình Dương C PRO"),
-                new ObjConnect("PDR_PRO", "Pandora PRO"),
-                new ObjConnect("TMSGC_PRO", "TMSGC PRO"),
-                new ObjConnect("HMMH_PRO", "Minh Hải PRO"),
-
-            };
-            var lstSTA = new List<ObjConnect>
-            {
-
-                new ObjConnect("SG_STA", "Sài Gòn STA"),
-
-                new ObjConnect("MAT_STA", "Mắt STA"),
-
-                new ObjConnect("VINH_STA", "Vinh STA"),
-
-                new ObjConnect("DN_STA", "Đà Nẵng STA"),
-
-                new ObjConnect("DL_STA", "Đà Lạt STA"),
-
-                new ObjConnect("CL_STA", "Cửu Long STA"),
-
-                new ObjConnect("VANPHUC_STA", "Vạn Phúc 2 STA"),
-                new ObjConnect("THUDUC_STA", "Thủ Đức STA"),
-                new ObjConnect("DONGNAI_STA", "Đồng Nai STA"),
-                new ObjConnect("BINHDUONG_STA", "Bình Dương STA"),
-                new ObjConnect("BINHDUONGC_STA", "Bình Dương C STA"),
-                new ObjConnect("PDR_STA", "Pandora STA"),
-                new ObjConnect("TMSGC_STA", "TMSGC STA"),
-                new ObjConnect("HMMH_STA", "Minh Hải STA"),
-            };
-
-
-            comboBox2.DisplayMember = "display";
-            comboBox2.ValueMember = "code";
-            comboBox2.DataSource = toggleSwitch3.IsOn ? lstSTA : lstPRO;
-            this.comboBox2.SelectedIndex = -1;
-        }
+        //    comboBox2.DisplayMember = "TENBENHVIEN";
+        //    comboBox2.ValueMember = "MABENHVIEN";
+        //    comboBox2.DataSource = toggleSwitch3.IsOn ? lstSTA : lstPRO;
+        //    this.comboBox2.SelectedIndex = -1;
+        //}
 
         private void button50_Click(object sender, EventArgs e)
         {
@@ -2291,48 +2125,15 @@ namespace QuickSupport_v2
         {
             if (gridView7.GetSelectedRows().FirstOrDefault() >= 0)
             {
-                var server = from HospitalSetting s in section.Hospitals select s;
                 string REPORT_FILE = gridView7.GetRowCellValue(gridView7.GetSelectedRows().FirstOrDefault(), "REPORT_FILE").ToString();
                 string STORED_NAME = gridView7.GetRowCellValue(gridView7.GetSelectedRows().FirstOrDefault(), "PROCEDURE_FILE").ToString();
-                string link = string.Empty;
                 textBox3.Text = GenScriptStored(STORED_NAME);
-                switch (MABENHVIEN)
+                HospitalIP curr = comboBox6.SelectedItem as HospitalIP;
+                if (curr != null)
                 {
-                    case "68038":
-                        link = section.Hospitals.Getvalue("DL_PRO_REPORT").VALUE.ToString();
-                        break;
-                    case "92088":
-                        link = section.Hospitals.Getvalue("CL_PRO_REPORT").VALUE.ToString();
-                        break;
-                    case "48072":
-                        link = section.Hospitals.Getvalue("DN_PRO_REPORT").VALUE.ToString();
-                        break;
-                    case "79071":
-                        link = section.Hospitals.Getvalue("SG_PRO_REPORT").VALUE.ToString();
-                        break;
-                    case "79976":
-                        link = section.Hospitals.Getvalue("MAT_PRO_REPORT").VALUE.ToString();
-                        break;
-                    case "40574":
-                        link = section.Hospitals.Getvalue("VINH_PRO_REPORT").VALUE.ToString();
-                        break;
-                    default:
-                        link = server.Where(x => x.GROUP.Equals("INFOMATION") && x.KEY.EndsWith("REPORT") && x.BENHVIEN_ID.Equals(MABENHVIEN)).FirstOrDefault().VALUE;
-                        break;
+                    linkLabel1.Text = radioGroup3.SelectedIndex == 0 ? curr.LINK_REPORT + REPORT_FILE : string.Empty;
                 }
-                if (toggleSwitch1.IsOn)
-                {
-                    linkLabel1.Text = string.Empty;
-                }
-                else
-                {
-                    linkLabel1.Text = radioGroup3.SelectedIndex == 0 ? link + REPORT_FILE : string.Empty;
-                }    
-            }
-            else
-            {
-                textBox3.Text = string.Empty;
-            }
+            }   
         }
 
         private void gridView30_RowCellClick(object sender, DevExpress.XtraGrid.Views.Grid.RowCellClickEventArgs e)
@@ -3049,6 +2850,32 @@ namespace QuickSupport_v2
             DataTable source = DbTool.DbTool.Query(connection, queryString, param);
             gridControl26.DataSource = source;
             gridView26.BestFitColumns();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textBox12.Text))
+                return;
+            Clipboard.SetText(textBox12.Text.ToString());
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textBox13.Text))
+                return;
+            Clipboard.SetText(textBox13.Text.ToString());
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(BENHNHAN_ID.Text))
+            {
+                MessagesBox("Chọn bệnh nhân đi", false);
+                return;
+            }
+            FPT.Framework.Data.DataObject param = new FPT.Framework.Data.DataObject();
+            param["BENHNHAN_ID"] = BENHNHAN_ID.Text;
+            QuickSupport_v2.Function.Helper.BindingData2gridview(connection, querySqls, gridControl31, param, "GETVIETINBANK");
         }
     }
 }

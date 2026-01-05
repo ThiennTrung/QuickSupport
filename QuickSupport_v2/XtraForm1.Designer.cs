@@ -29,68 +29,68 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject29 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject30 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject31 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject32 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions25 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(XtraForm1));
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject29 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions26 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject30 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions27 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject31 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions28 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject32 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions29 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject33 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions30 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions26 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject34 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions31 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions27 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject35 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions32 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions28 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject36 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions33 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions29 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject37 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions34 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions30 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject38 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions35 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions31 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject39 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions36 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions32 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject40 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions37 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions33 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject41 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions38 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions34 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject42 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions39 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions35 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject43 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions36 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject44 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions37 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject45 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions38 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject46 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions39 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject47 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule17 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue6 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule18 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleExpression formatConditionRuleExpression12 = new DevExpress.XtraEditors.FormatConditionRuleExpression();
             DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions40 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject44 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions41 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject45 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions42 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject46 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions43 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject47 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions44 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject48 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions45 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions41 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject49 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions2 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions42 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject50 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions43 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject51 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions44 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject52 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions45 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject53 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject54 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject55 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject56 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions buttonImageOptions5 = new DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions();
             DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions buttonImageOptions6 = new DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions();
             DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions buttonImageOptions7 = new DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions();
             DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions buttonImageOptions8 = new DevExpress.XtraEditors.ButtonsPanelControl.ButtonImageOptions();
             DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions46 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject50 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject54 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions47 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject51 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject55 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions48 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject52 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject56 = new DevExpress.Utils.SerializableAppearanceObject();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule1 = new DevExpress.XtraGrid.GridFormatRule();
             DevExpress.XtraEditors.FormatConditionRuleValue formatConditionRuleValue1 = new DevExpress.XtraEditors.FormatConditionRuleValue();
             DevExpress.XtraGrid.GridFormatRule gridFormatRule2 = new DevExpress.XtraGrid.GridFormatRule();
@@ -129,8 +129,10 @@
             this.gridColumn90 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn93 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn82 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemButtonEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
+            this.repositoryItemButtonEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.navigationPane1 = new DevExpress.XtraBars.Navigation.NavigationPane();
+            this.ckVTB = new DevExpress.XtraBars.Navigation.NavigationPane();
             this.navigationPage1 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.gridControl3 = new DevExpress.XtraGrid.GridControl();
             this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -245,25 +247,28 @@
             this.KEY = new DevExpress.XtraGrid.Columns.GridColumn();
             this.TEXT = new DevExpress.XtraGrid.Columns.GridColumn();
             this.RUN = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemButtonEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.CONF = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemButtonEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.ENVI = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemCheckEdit29 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.toggleSwitch3 = new DevExpress.XtraEditors.ToggleSwitch();
+            this.label33 = new System.Windows.Forms.Label();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.button13 = new System.Windows.Forms.Button();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
             this.button49 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
             this.button41 = new System.Windows.Forms.Button();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
-            this.button39 = new System.Windows.Forms.Button();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.button37 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
-            this.label21 = new System.Windows.Forms.Label();
             this.button34 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
@@ -271,8 +276,6 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.label23 = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
@@ -289,6 +292,8 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
+            this.label30 = new System.Windows.Forms.Label();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.radioGroup3 = new DevExpress.XtraEditors.RadioGroup();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
@@ -488,6 +493,7 @@
             this.gridView31 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.repositoryItemCheckEdit30 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.panelControl11 = new DevExpress.XtraEditors.PanelControl();
+            this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
             this.button6 = new System.Windows.Forms.Button();
             this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -559,18 +565,11 @@
             this.button5 = new System.Windows.Forms.Button();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
-            this.navigationPage14 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.gridControl35 = new DevExpress.XtraGrid.GridControl();
-            this.gridView51 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.repositoryItemCheckEdit34 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
-            this.gridView52 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.stepProgressBar1 = new DevExpress.XtraEditors.StepProgressBar();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.repositoryItemCheckEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
             this.button16 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
@@ -595,11 +594,13 @@
             this.repositoryItemButtonEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.gridView29 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridSplitContainer1 = new DevExpress.XtraGrid.GridSplitContainer();
-            this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
+            this.button17 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
-            this.navigationPane1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ckVTB)).BeginInit();
+            this.ckVTB.SuspendLayout();
             this.navigationPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
@@ -645,12 +646,8 @@
             this.groupControl12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.navigationPage7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl7)).BeginInit();
@@ -825,12 +822,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl9)).BeginInit();
             this.panelControl9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).BeginInit();
-            this.navigationPage14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl35)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit34)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView52)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stepProgressBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -838,7 +829,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
@@ -951,9 +941,26 @@
             this.gridColumn82.VisibleIndex = 26;
             this.gridColumn82.Width = 60;
             // 
+            // repositoryItemButtonEdit1
+            // 
+            this.repositoryItemButtonEdit1.AutoHeight = false;
+            editorButtonImageOptions2.Image = global::QuickSupport_v2.Properties.Resources.icoUngdung;
+            this.repositoryItemButtonEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject29, serializableAppearanceObject30, serializableAppearanceObject31, serializableAppearanceObject32, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
+            this.repositoryItemButtonEdit1.Name = "repositoryItemButtonEdit1";
+            this.repositoryItemButtonEdit1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
+            // 
+            // repositoryItemButtonEdit3
+            // 
+            this.repositoryItemButtonEdit3.AutoHeight = false;
+            this.repositoryItemButtonEdit3.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph)});
+            this.repositoryItemButtonEdit3.Name = "repositoryItemButtonEdit3";
+            this.repositoryItemButtonEdit3.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
+            // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.navigationPane1);
+            this.panelControl1.Controls.Add(this.ckVTB);
             this.panelControl1.Controls.Add(this.panelControl3);
             this.panelControl1.Controls.Add(this.panelControl2);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -962,29 +969,28 @@
             this.panelControl1.Size = new System.Drawing.Size(1166, 733);
             this.panelControl1.TabIndex = 0;
             // 
-            // navigationPane1
+            // ckVTB
             // 
-            this.navigationPane1.Controls.Add(this.navigationPage1);
-            this.navigationPane1.Controls.Add(this.navigationPage2);
-            this.navigationPane1.Controls.Add(this.navigationPage3);
-            this.navigationPane1.Controls.Add(this.navigationPage4);
-            this.navigationPane1.Controls.Add(this.navigationPage5);
-            this.navigationPane1.Controls.Add(this.navigationPage6);
-            this.navigationPane1.Controls.Add(this.navigationPage7);
-            this.navigationPane1.Controls.Add(this.navigationPage8);
-            this.navigationPane1.Controls.Add(this.navigationPage11);
-            this.navigationPane1.Controls.Add(this.navigationPage9);
-            this.navigationPane1.Controls.Add(this.navigationPage10);
-            this.navigationPane1.Controls.Add(this.navigationPage12);
-            this.navigationPane1.Controls.Add(this.navigationPage13);
-            this.navigationPane1.Controls.Add(this.navigationPage14);
-            this.navigationPane1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.navigationPane1.Location = new System.Drawing.Point(2, 191);
-            this.navigationPane1.Name = "navigationPane1";
-            this.navigationPane1.PageProperties.AllowHtmlDraw = false;
-            this.navigationPane1.PageProperties.ShowCollapseButton = false;
-            this.navigationPane1.PageProperties.ShowExpandButton = false;
-            this.navigationPane1.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
+            this.ckVTB.Controls.Add(this.navigationPage1);
+            this.ckVTB.Controls.Add(this.navigationPage2);
+            this.ckVTB.Controls.Add(this.navigationPage3);
+            this.ckVTB.Controls.Add(this.navigationPage4);
+            this.ckVTB.Controls.Add(this.navigationPage5);
+            this.ckVTB.Controls.Add(this.navigationPage6);
+            this.ckVTB.Controls.Add(this.navigationPage7);
+            this.ckVTB.Controls.Add(this.navigationPage8);
+            this.ckVTB.Controls.Add(this.navigationPage11);
+            this.ckVTB.Controls.Add(this.navigationPage9);
+            this.ckVTB.Controls.Add(this.navigationPage10);
+            this.ckVTB.Controls.Add(this.navigationPage12);
+            this.ckVTB.Controls.Add(this.navigationPage13);
+            this.ckVTB.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ckVTB.Location = new System.Drawing.Point(2, 191);
+            this.ckVTB.Name = "ckVTB";
+            this.ckVTB.PageProperties.AllowHtmlDraw = false;
+            this.ckVTB.PageProperties.ShowCollapseButton = false;
+            this.ckVTB.PageProperties.ShowExpandButton = false;
+            this.ckVTB.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
             this.navigationPage1,
             this.navigationPage2,
             this.navigationPage8,
@@ -997,62 +1003,61 @@
             this.navigationPage9,
             this.navigationPage10,
             this.navigationPage12,
-            this.navigationPage13,
-            this.navigationPage14});
-            this.navigationPane1.RegularSize = new System.Drawing.Size(1162, 540);
-            this.navigationPane1.SelectedPage = this.navigationPage1;
-            this.navigationPane1.Size = new System.Drawing.Size(1162, 540);
-            this.navigationPane1.TabIndex = 5;
-            this.navigationPane1.SelectedPageIndexChanged += new System.EventHandler(this.navigationPane1_SelectedPageIndexChanged);
+            this.navigationPage13});
+            this.ckVTB.RegularSize = new System.Drawing.Size(1162, 540);
+            this.ckVTB.SelectedPage = this.navigationPage1;
+            this.ckVTB.Size = new System.Drawing.Size(1162, 540);
+            this.ckVTB.TabIndex = 5;
+            this.ckVTB.SelectedPageIndexChanged += new System.EventHandler(this.navigationPane1_SelectedPageIndexChanged);
             // 
             // navigationPage1
             // 
             this.navigationPage1.Caption = "CHUNG";
             this.navigationPage1.Controls.Add(this.gridControl3);
             customHeaderButtonImageOptions25.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions25.SvgImage")));
-            serializableAppearanceObject29.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject29.Options.UseFont = true;
-            customHeaderButtonImageOptions26.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions26.SvgImage")));
-            serializableAppearanceObject30.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject30.Options.UseFont = true;
-            customHeaderButtonImageOptions27.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions27.SvgImage")));
-            serializableAppearanceObject31.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject31.Options.UseFont = true;
-            customHeaderButtonImageOptions28.ImageUri.Uri = "icon%20builder/travel_rest";
-            serializableAppearanceObject32.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject32.Options.UseFont = true;
-            customHeaderButtonImageOptions29.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions29.SvgImage")));
             serializableAppearanceObject33.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             serializableAppearanceObject33.Options.UseFont = true;
-            customHeaderButtonImageOptions30.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions30.SvgImage")));
+            customHeaderButtonImageOptions26.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions26.SvgImage")));
             serializableAppearanceObject34.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             serializableAppearanceObject34.Options.UseFont = true;
-            customHeaderButtonImageOptions31.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions31.SvgImage")));
+            customHeaderButtonImageOptions27.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions27.SvgImage")));
             serializableAppearanceObject35.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             serializableAppearanceObject35.Options.UseFont = true;
-            customHeaderButtonImageOptions32.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions32.Image")));
+            customHeaderButtonImageOptions28.ImageUri.Uri = "icon%20builder/travel_rest";
             serializableAppearanceObject36.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             serializableAppearanceObject36.Options.UseFont = true;
-            customHeaderButtonImageOptions33.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions33.Image")));
+            customHeaderButtonImageOptions29.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions29.SvgImage")));
             serializableAppearanceObject37.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             serializableAppearanceObject37.Options.UseFont = true;
-            customHeaderButtonImageOptions34.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions34.SvgImage")));
+            customHeaderButtonImageOptions30.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions30.SvgImage")));
             serializableAppearanceObject38.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             serializableAppearanceObject38.Options.UseFont = true;
+            customHeaderButtonImageOptions31.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions31.SvgImage")));
+            serializableAppearanceObject39.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject39.Options.UseFont = true;
+            customHeaderButtonImageOptions32.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions32.Image")));
+            serializableAppearanceObject40.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject40.Options.UseFont = true;
+            customHeaderButtonImageOptions33.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions33.Image")));
+            serializableAppearanceObject41.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject41.Options.UseFont = true;
+            customHeaderButtonImageOptions34.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions34.SvgImage")));
+            serializableAppearanceObject42.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject42.Options.UseFont = true;
             this.navigationPage1.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("S.HIỆU", true, customHeaderButtonImageOptions25, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject29, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("TT KBENH", true, customHeaderButtonImageOptions26, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject30, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("DV THEO KB", true, customHeaderButtonImageOptions27, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject31, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Giường", true, customHeaderButtonImageOptions28, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject32, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("XN BH", true, customHeaderButtonImageOptions29, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject33, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("HĐƠN", true, customHeaderButtonImageOptions30, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject34, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("ĐỢT ĐTRỊ", true, customHeaderButtonImageOptions31, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject35, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("MIỄM GIẢM", true, customHeaderButtonImageOptions32, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject36, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("KT HỦY BA", true, customHeaderButtonImageOptions33, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject37, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("GÓI", true, customHeaderButtonImageOptions34, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject38, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("S.HIỆU", true, customHeaderButtonImageOptions25, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject33, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("TT KBENH", true, customHeaderButtonImageOptions26, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject34, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("DV THEO KB", true, customHeaderButtonImageOptions27, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject35, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Giường", true, customHeaderButtonImageOptions28, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject36, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("XN BH", true, customHeaderButtonImageOptions29, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject37, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("HĐƠN", true, customHeaderButtonImageOptions30, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject38, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("ĐỢT ĐTRỊ", true, customHeaderButtonImageOptions31, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject39, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("MIỄM GIẢM", true, customHeaderButtonImageOptions32, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject40, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("KT HỦY BA", true, customHeaderButtonImageOptions33, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject41, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("GÓI", true, customHeaderButtonImageOptions34, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject42, null, -1)});
             this.navigationPage1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.navigationPage1.Name = "navigationPage1";
-            this.navigationPage1.Size = new System.Drawing.Size(1036, 476);
+            this.navigationPage1.Size = new System.Drawing.Size(1055, 476);
             this.navigationPage1.CustomButtonClick += new DevExpress.XtraBars.Docking2010.ButtonEventHandler(this.navigationPage1_CustomButtonClick);
             // 
             // gridControl3
@@ -1067,7 +1072,7 @@
             this.gridControl3.Name = "gridControl3";
             this.gridControl3.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit3});
-            this.gridControl3.Size = new System.Drawing.Size(1036, 476);
+            this.gridControl3.Size = new System.Drawing.Size(1055, 476);
             this.gridControl3.TabIndex = 20;
             this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView3,
@@ -1116,31 +1121,31 @@
             this.navigationPage2.Controls.Add(this.gridControl2);
             this.navigationPage2.Controls.Add(this.flowLayoutPanel5);
             customHeaderButtonImageOptions35.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_check;
-            serializableAppearanceObject39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            serializableAppearanceObject39.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject39.ForeColor = System.Drawing.Color.Red;
-            serializableAppearanceObject39.Options.UseBackColor = true;
-            serializableAppearanceObject39.Options.UseFont = true;
-            serializableAppearanceObject39.Options.UseForeColor = true;
-            serializableAppearanceObject39.Options.UseTextOptions = true;
-            customHeaderButtonImageOptions36.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_zoom;
-            serializableAppearanceObject40.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject40.Options.UseFont = true;
-            customHeaderButtonImageOptions37.SvgImage = global::QuickSupport_v2.Properties.Resources.business_dollar;
-            serializableAppearanceObject41.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject41.Options.UseFont = true;
-            customHeaderButtonImageOptions38.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_deletecircled;
-            serializableAppearanceObject42.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject42.Options.UseFont = true;
-            customHeaderButtonImageOptions39.Image = global::QuickSupport_v2.Properties.Resources.copy_32x32;
+            serializableAppearanceObject43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             serializableAppearanceObject43.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject43.ForeColor = System.Drawing.Color.Red;
+            serializableAppearanceObject43.Options.UseBackColor = true;
             serializableAppearanceObject43.Options.UseFont = true;
+            serializableAppearanceObject43.Options.UseForeColor = true;
+            serializableAppearanceObject43.Options.UseTextOptions = true;
+            customHeaderButtonImageOptions36.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_zoom;
+            serializableAppearanceObject44.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject44.Options.UseFont = true;
+            customHeaderButtonImageOptions37.SvgImage = global::QuickSupport_v2.Properties.Resources.business_dollar;
+            serializableAppearanceObject45.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject45.Options.UseFont = true;
+            customHeaderButtonImageOptions38.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_deletecircled;
+            serializableAppearanceObject46.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject46.Options.UseFont = true;
+            customHeaderButtonImageOptions39.Image = global::QuickSupport_v2.Properties.Resources.copy_32x32;
+            serializableAppearanceObject47.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject47.Options.UseFont = true;
             this.navigationPage2.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("BHYT", true, customHeaderButtonImageOptions35, DevExpress.XtraBars.Docking2010.ButtonStyle.CheckButton, "", -1, true, null, true, false, true, serializableAppearanceObject39, false, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Tìm kiếm", true, customHeaderButtonImageOptions36, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject40, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Tính lại chi phí", true, customHeaderButtonImageOptions37, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject41, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Chưa có SOLONHAP_ID", true, customHeaderButtonImageOptions38, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject42, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Script VP", true, customHeaderButtonImageOptions39, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject43, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("BHYT", true, customHeaderButtonImageOptions35, DevExpress.XtraBars.Docking2010.ButtonStyle.CheckButton, "", -1, true, null, true, false, true, serializableAppearanceObject43, false, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Tìm kiếm", true, customHeaderButtonImageOptions36, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject44, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Tính lại chi phí", true, customHeaderButtonImageOptions37, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject45, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Chưa có SOLONHAP_ID", true, customHeaderButtonImageOptions38, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject46, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Script VP", true, customHeaderButtonImageOptions39, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject47, null, -1)});
             this.navigationPage2.Name = "navigationPage2";
             this.navigationPage2.PageText = "VIỆN PHÍ";
             this.navigationPage2.Properties.ShowCollapseButton = DevExpress.Utils.DefaultBoolean.False;
@@ -1756,17 +1761,17 @@
             this.navigationPage3.Controls.Add(this.panelControl7);
             this.navigationPage3.Controls.Add(this.gridControl11);
             customHeaderButtonImageOptions40.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_deletecircled;
-            serializableAppearanceObject44.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject44.Options.UseFont = true;
+            serializableAppearanceObject48.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject48.Options.UseFont = true;
             customHeaderButtonImageOptions41.SvgImage = global::QuickSupport_v2.Properties.Resources.actions_zoom;
-            serializableAppearanceObject45.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject45.Options.UseFont = true;
+            serializableAppearanceObject49.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject49.Options.UseFont = true;
             this.navigationPage3.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Chưa hoàn tất/ được phép TH", true, customHeaderButtonImageOptions40, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject44, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Search", true, customHeaderButtonImageOptions41, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject45, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Chưa hoàn tất/ được phép TH", true, customHeaderButtonImageOptions40, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject48, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Search", true, customHeaderButtonImageOptions41, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject49, null, -1)});
             this.navigationPage3.Name = "navigationPage3";
             this.navigationPage3.PageText = "DỊCH VỤ";
-            this.navigationPage3.Size = new System.Drawing.Size(1036, 476);
+            this.navigationPage3.Size = new System.Drawing.Size(1055, 476);
             this.navigationPage3.CustomButtonClick += new DevExpress.XtraBars.Docking2010.ButtonEventHandler(this.navigationPage3_CustomButtonClick);
             // 
             // gridControl4
@@ -1781,7 +1786,7 @@
             this.gridControl4.Name = "gridControl4";
             this.gridControl4.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit4});
-            this.gridControl4.Size = new System.Drawing.Size(1036, 371);
+            this.gridControl4.Size = new System.Drawing.Size(1055, 371);
             this.gridControl4.TabIndex = 24;
             this.gridControl4.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView4,
@@ -1835,7 +1840,7 @@
             this.panelControl7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl7.Location = new System.Drawing.Point(0, 0);
             this.panelControl7.Name = "panelControl7";
-            this.panelControl7.Size = new System.Drawing.Size(1036, 34);
+            this.panelControl7.Size = new System.Drawing.Size(1055, 34);
             this.panelControl7.TabIndex = 23;
             // 
             // comboBox4
@@ -1919,7 +1924,7 @@
             this.gridControl11.Name = "gridControl11";
             this.gridControl11.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit11});
-            this.gridControl11.Size = new System.Drawing.Size(1036, 71);
+            this.gridControl11.Size = new System.Drawing.Size(1055, 71);
             this.gridControl11.TabIndex = 21;
             this.gridControl11.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView11,
@@ -1964,25 +1969,25 @@
             this.navigationPage4.Controls.Add(this.groupControl5);
             this.navigationPage4.Controls.Add(this.groupControl4);
             customHeaderButtonImageOptions42.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions42.Image")));
-            serializableAppearanceObject46.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject46.Options.UseFont = true;
+            serializableAppearanceObject50.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject50.Options.UseFont = true;
             customHeaderButtonImageOptions43.Image = global::QuickSupport_v2.Properties.Resources.saveto_32x32;
-            serializableAppearanceObject47.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject47.Options.UseFont = true;
+            serializableAppearanceObject51.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject51.Options.UseFont = true;
             customHeaderButtonImageOptions44.Image = global::QuickSupport_v2.Properties.Resources.copy_32x32;
-            serializableAppearanceObject48.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject48.Options.UseFont = true;
+            serializableAppearanceObject52.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject52.Options.UseFont = true;
             customHeaderButtonImageOptions45.Image = global::QuickSupport_v2.Properties.Resources.leftright_32x32;
-            serializableAppearanceObject49.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject49.Options.UseFont = true;
+            serializableAppearanceObject53.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject53.Options.UseFont = true;
             this.navigationPage4.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Search", true, customHeaderButtonImageOptions42, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject46, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Lưu dữ liệu thay đổi", true, customHeaderButtonImageOptions43, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject47, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Script thẻ BHYT", true, customHeaderButtonImageOptions44, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject48, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Chuyển ALL chi phí về 1 thẻ", true, customHeaderButtonImageOptions45, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "Chọn 1 số thẻ (bảng 2) để cập nhật tất cả chi phí BHYT về thẻ này", -1, true, null, true, false, true, serializableAppearanceObject49, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Search", true, customHeaderButtonImageOptions42, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject50, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Lưu dữ liệu thay đổi", true, customHeaderButtonImageOptions43, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject51, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Script thẻ BHYT", true, customHeaderButtonImageOptions44, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject52, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Chuyển ALL chi phí về 1 thẻ", true, customHeaderButtonImageOptions45, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "Chọn 1 số thẻ (bảng 2) để cập nhật tất cả chi phí BHYT về thẻ này", -1, true, null, true, false, true, serializableAppearanceObject53, null, -1)});
             this.navigationPage4.Name = "navigationPage4";
             this.navigationPage4.PageText = "Thẻ BHYT";
-            this.navigationPage4.Size = new System.Drawing.Size(1036, 476);
+            this.navigationPage4.Size = new System.Drawing.Size(1055, 476);
             this.navigationPage4.CustomButtonClick += new DevExpress.XtraBars.Docking2010.ButtonEventHandler(this.navigationPage4_CustomButtonClick);
             // 
             // groupControl5
@@ -1991,7 +1996,7 @@
             this.groupControl5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl5.Location = new System.Drawing.Point(0, 147);
             this.groupControl5.Name = "groupControl5";
-            this.groupControl5.Size = new System.Drawing.Size(1036, 329);
+            this.groupControl5.Size = new System.Drawing.Size(1055, 329);
             this.groupControl5.TabIndex = 3;
             this.groupControl5.Text = "TT_TIEPNHAN_SOTHEBHYT";
             // 
@@ -2001,7 +2006,7 @@
             this.gridControl27.Location = new System.Drawing.Point(2, 27);
             this.gridControl27.MainView = this.gridView27;
             this.gridControl27.Name = "gridControl27";
-            this.gridControl27.Size = new System.Drawing.Size(1032, 300);
+            this.gridControl27.Size = new System.Drawing.Size(1051, 300);
             this.gridControl27.TabIndex = 4;
             this.gridControl27.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView27,
@@ -2143,7 +2148,7 @@
             this.groupControl4.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupControl4.Location = new System.Drawing.Point(0, 0);
             this.groupControl4.Name = "groupControl4";
-            this.groupControl4.Size = new System.Drawing.Size(1036, 147);
+            this.groupControl4.Size = new System.Drawing.Size(1055, 147);
             this.groupControl4.TabIndex = 2;
             this.groupControl4.Text = "TT_TIEPNHAN";
             // 
@@ -2158,7 +2163,7 @@
             this.gridControl5.Name = "gridControl5";
             this.gridControl5.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit5});
-            this.gridControl5.Size = new System.Drawing.Size(1032, 118);
+            this.gridControl5.Size = new System.Drawing.Size(1051, 118);
             this.gridControl5.TabIndex = 3;
             this.gridControl5.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView5});
@@ -2292,7 +2297,7 @@
             this.navigationPage5.PageText = "FORMAT DAO";
             this.navigationPage5.Properties.ShowCollapseButton = DevExpress.Utils.DefaultBoolean.False;
             this.navigationPage5.Properties.ShowExpandButton = DevExpress.Utils.DefaultBoolean.False;
-            this.navigationPage5.Size = new System.Drawing.Size(1036, 506);
+            this.navigationPage5.Size = new System.Drawing.Size(1055, 506);
             // 
             // splitContainerControl1
             // 
@@ -2310,7 +2315,7 @@
             // 
             this.splitContainerControl1.Panel2.Controls.Add(this.webBrowser1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(1036, 506);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1055, 506);
             this.splitContainerControl1.SplitterPosition = 153;
             this.splitContainerControl1.TabIndex = 0;
             // 
@@ -2321,7 +2326,7 @@
             this.textBox1.MaxLength = 21474836;
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(1036, 153);
+            this.textBox1.Size = new System.Drawing.Size(1055, 153);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -2331,7 +2336,7 @@
             this.webBrowser1.Location = new System.Drawing.Point(0, 0);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(1036, 343);
+            this.webBrowser1.Size = new System.Drawing.Size(1055, 343);
             this.webBrowser1.TabIndex = 1;
             // 
             // navigationPage6
@@ -2342,33 +2347,29 @@
             this.navigationPage6.Controls.Add(this.groupControl1);
             this.navigationPage6.Name = "navigationPage6";
             this.navigationPage6.PageText = "CONFIG";
-            this.navigationPage6.Size = new System.Drawing.Size(1036, 506);
+            this.navigationPage6.Size = new System.Drawing.Size(1055, 506);
             // 
             // groupControl12
             // 
             this.groupControl12.Controls.Add(this.gridControl29);
-            this.groupControl12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupControl12.Dock = System.Windows.Forms.DockStyle.Left;
             this.groupControl12.Location = new System.Drawing.Point(454, 49);
             this.groupControl12.Name = "groupControl12";
-            this.groupControl12.Size = new System.Drawing.Size(582, 457);
+            this.groupControl12.Size = new System.Drawing.Size(323, 457);
             this.groupControl12.TabIndex = 4;
             this.groupControl12.Text = "RUN HIS";
             // 
             // gridControl29
             // 
             this.gridControl29.Cursor = System.Windows.Forms.Cursors.Default;
-            this.gridControl29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl29.Dock = System.Windows.Forms.DockStyle.Left;
             this.gridControl29.EmbeddedNavigator.Buttons.CancelEdit.Enabled = false;
             this.gridControl29.EmbeddedNavigator.Buttons.Edit.Enabled = false;
             this.gridControl29.EmbeddedNavigator.Buttons.Edit.Visible = false;
             this.gridControl29.Location = new System.Drawing.Point(2, 27);
             this.gridControl29.MainView = this.gridView30;
             this.gridControl29.Name = "gridControl29";
-            this.gridControl29.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
-            this.repositoryItemCheckEdit29,
-            this.repositoryItemButtonEdit1,
-            this.repositoryItemButtonEdit3});
-            this.gridControl29.Size = new System.Drawing.Size(578, 428);
+            this.gridControl29.Size = new System.Drawing.Size(321, 428);
             this.gridControl29.TabIndex = 23;
             this.gridControl29.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView30});
@@ -2413,8 +2414,6 @@
             this.KEY.Caption = "KEY";
             this.KEY.FieldName = "KEY";
             this.KEY.Name = "KEY";
-            this.KEY.Visible = true;
-            this.KEY.VisibleIndex = 0;
             this.KEY.Width = 208;
             // 
             // TEXT
@@ -2423,8 +2422,8 @@
             this.TEXT.FieldName = "TEXT";
             this.TEXT.Name = "TEXT";
             this.TEXT.Visible = true;
-            this.TEXT.VisibleIndex = 1;
-            this.TEXT.Width = 375;
+            this.TEXT.VisibleIndex = 0;
+            this.TEXT.Width = 156;
             // 
             // RUN
             // 
@@ -2436,17 +2435,8 @@
             this.RUN.Name = "RUN";
             this.RUN.OptionsColumn.AllowSize = false;
             this.RUN.Visible = true;
-            this.RUN.VisibleIndex = 2;
-            this.RUN.Width = 78;
-            // 
-            // repositoryItemButtonEdit1
-            // 
-            this.repositoryItemButtonEdit1.AutoHeight = false;
-            editorButtonImageOptions2.Image = global::QuickSupport_v2.Properties.Resources.icoUngdung;
-            this.repositoryItemButtonEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions2, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject53, serializableAppearanceObject54, serializableAppearanceObject55, serializableAppearanceObject56, "", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
-            this.repositoryItemButtonEdit1.Name = "repositoryItemButtonEdit1";
-            this.repositoryItemButtonEdit1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
+            this.RUN.VisibleIndex = 1;
+            this.RUN.Width = 93;
             // 
             // CONF
             // 
@@ -2457,16 +2447,8 @@
             this.CONF.FieldName = "CONF";
             this.CONF.Name = "CONF";
             this.CONF.Visible = true;
-            this.CONF.VisibleIndex = 3;
-            this.CONF.Width = 86;
-            // 
-            // repositoryItemButtonEdit3
-            // 
-            this.repositoryItemButtonEdit3.AutoHeight = false;
-            this.repositoryItemButtonEdit3.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph)});
-            this.repositoryItemButtonEdit3.Name = "repositoryItemButtonEdit3";
-            this.repositoryItemButtonEdit3.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
+            this.CONF.VisibleIndex = 2;
+            this.CONF.Width = 77;
             // 
             // ENVI
             // 
@@ -2474,29 +2456,30 @@
             this.ENVI.FieldName = "ENVI";
             this.ENVI.Name = "ENVI";
             this.ENVI.Visible = true;
-            this.ENVI.VisibleIndex = 4;
-            this.ENVI.Width = 93;
-            // 
-            // repositoryItemCheckEdit29
-            // 
-            this.repositoryItemCheckEdit29.AutoHeight = false;
-            this.repositoryItemCheckEdit29.Name = "repositoryItemCheckEdit29";
+            this.ENVI.VisibleIndex = 3;
+            this.ENVI.Width = 917;
             // 
             // groupControl2
             // 
-            this.groupControl2.Controls.Add(this.toggleSwitch3);
+            this.groupControl2.Controls.Add(this.label33);
+            this.groupControl2.Controls.Add(this.textBox17);
+            this.groupControl2.Controls.Add(this.textBox15);
+            this.groupControl2.Controls.Add(this.button13);
+            this.groupControl2.Controls.Add(this.textBox13);
+            this.groupControl2.Controls.Add(this.label21);
+            this.groupControl2.Controls.Add(this.label31);
+            this.groupControl2.Controls.Add(this.button12);
+            this.groupControl2.Controls.Add(this.textBox12);
+            this.groupControl2.Controls.Add(this.label22);
             this.groupControl2.Controls.Add(this.button49);
-            this.groupControl2.Controls.Add(this.button40);
             this.groupControl2.Controls.Add(this.button41);
             this.groupControl2.Controls.Add(this.textBox10);
             this.groupControl2.Controls.Add(this.textBox11);
-            this.groupControl2.Controls.Add(this.button39);
             this.groupControl2.Controls.Add(this.textBox9);
             this.groupControl2.Controls.Add(this.button37);
             this.groupControl2.Controls.Add(this.button38);
             this.groupControl2.Controls.Add(this.button35);
             this.groupControl2.Controls.Add(this.button36);
-            this.groupControl2.Controls.Add(this.label21);
             this.groupControl2.Controls.Add(this.button34);
             this.groupControl2.Controls.Add(this.button33);
             this.groupControl2.Controls.Add(this.button32);
@@ -2504,8 +2487,6 @@
             this.groupControl2.Controls.Add(this.textBox5);
             this.groupControl2.Controls.Add(this.textBox4);
             this.groupControl2.Controls.Add(this.textBox2);
-            this.groupControl2.Controls.Add(this.label22);
-            this.groupControl2.Controls.Add(this.linkLabel2);
             this.groupControl2.Controls.Add(this.label23);
             this.groupControl2.Controls.Add(this.textBox7);
             this.groupControl2.Controls.Add(this.label24);
@@ -2520,16 +2501,97 @@
             this.groupControl2.TabIndex = 1;
             this.groupControl2.Text = "INFO";
             // 
-            // toggleSwitch3
+            // label33
             // 
-            this.toggleSwitch3.Location = new System.Drawing.Point(6, 48);
-            this.toggleSwitch3.Name = "toggleSwitch3";
-            this.toggleSwitch3.Properties.GlyphAlignment = DevExpress.Utils.HorzAlignment.Default;
-            this.toggleSwitch3.Properties.OffText = "Pro";
-            this.toggleSwitch3.Properties.OnText = "Sta";
-            this.toggleSwitch3.Size = new System.Drawing.Size(84, 21);
-            this.toggleSwitch3.TabIndex = 57;
-            this.toggleSwitch3.Toggled += new System.EventHandler(this.toggleSwitch3_Toggled);
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.Black;
+            this.label33.Location = new System.Drawing.Point(5, 193);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(49, 17);
+            this.label33.TabIndex = 66;
+            this.label33.Text = "Note: ";
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(93, 191);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(297, 22);
+            this.textBox17.TabIndex = 65;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(266, 158);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(124, 22);
+            this.textBox15.TabIndex = 64;
+            // 
+            // button13
+            // 
+            this.button13.Image = ((System.Drawing.Image)(resources.GetObject("button13.Image")));
+            this.button13.Location = new System.Drawing.Point(398, 158);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(33, 29);
+            this.button13.TabIndex = 63;
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(93, 158);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(167, 22);
+            this.textBox13.TabIndex = 62;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.Black;
+            this.label21.Location = new System.Drawing.Point(6, 161);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(57, 17);
+            this.label21.TabIndex = 61;
+            this.label21.Text = "Elastic:";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.Black;
+            this.label31.Location = new System.Drawing.Point(225, 126);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(39, 17);
+            this.label31.TabIndex = 60;
+            this.label31.Text = "DB: ";
+            // 
+            // button12
+            // 
+            this.button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
+            this.button12.Location = new System.Drawing.Point(186, 120);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(33, 29);
+            this.button12.TabIndex = 59;
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(93, 123);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(87, 22);
+            this.textBox12.TabIndex = 58;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.Black;
+            this.label22.Location = new System.Drawing.Point(6, 126);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(82, 17);
+            this.label22.TabIndex = 57;
+            this.label22.Text = "Api Sever: ";
             // 
             // button49
             // 
@@ -2541,16 +2603,6 @@
             this.button49.Text = "REMOTE";
             this.button49.UseVisualStyleBackColor = true;
             this.button49.Click += new System.EventHandler(this.button49_Click);
-            // 
-            // button40
-            // 
-            this.button40.Image = ((System.Drawing.Image)(resources.GetObject("button40.Image")));
-            this.button40.Location = new System.Drawing.Point(398, 355);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(33, 29);
-            this.button40.TabIndex = 51;
-            this.button40.UseVisualStyleBackColor = true;
-            this.button40.Click += new System.EventHandler(this.button40_Click);
             // 
             // button41
             // 
@@ -2580,21 +2632,11 @@
             this.textBox11.Size = new System.Drawing.Size(383, 22);
             this.textBox11.TabIndex = 48;
             // 
-            // button39
-            // 
-            this.button39.Image = ((System.Drawing.Image)(resources.GetObject("button39.Image")));
-            this.button39.Location = new System.Drawing.Point(398, 150);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(33, 29);
-            this.button39.TabIndex = 47;
-            this.button39.UseVisualStyleBackColor = true;
-            this.button39.Click += new System.EventHandler(this.button39_Click);
-            // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(93, 153);
+            this.textBox9.Location = new System.Drawing.Point(314, 46);
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(299, 22);
+            this.textBox9.Size = new System.Drawing.Size(76, 22);
             this.textBox9.TabIndex = 46;
             // 
             // button37
@@ -2637,21 +2679,10 @@
             this.button36.UseVisualStyleBackColor = true;
             this.button36.Click += new System.EventHandler(this.button36_Click);
             // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.Black;
-            this.label21.Location = new System.Drawing.Point(8, 156);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(59, 17);
-            this.label21.TabIndex = 41;
-            this.label21.Text = "Mã BV:";
-            // 
             // button34
             // 
             this.button34.Image = ((System.Drawing.Image)(resources.GetObject("button34.Image")));
-            this.button34.Location = new System.Drawing.Point(398, 118);
+            this.button34.Location = new System.Drawing.Point(398, 120);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(33, 29);
             this.button34.TabIndex = 40;
@@ -2706,34 +2737,12 @@
             this.textBox2.Size = new System.Drawing.Size(171, 22);
             this.textBox2.TabIndex = 31;
             // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.Black;
-            this.label22.Location = new System.Drawing.Point(6, 218);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(143, 17);
-            this.label22.TabIndex = 28;
-            this.label22.Text = "LINK DOWNLOAD";
-            // 
-            // linkLabel2
-            // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(155, 218);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(59, 14);
-            this.linkLabel2.TabIndex = 27;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "linkLabel2";
-            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked_1);
-            // 
             // label23
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.Black;
-            this.label23.Location = new System.Drawing.Point(6, 185);
+            this.label23.Location = new System.Drawing.Point(6, 222);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(113, 17);
             this.label23.TabIndex = 26;
@@ -2741,9 +2750,9 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(93, 121);
+            this.textBox7.Location = new System.Drawing.Point(266, 123);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(299, 22);
+            this.textBox7.Size = new System.Drawing.Size(126, 22);
             this.textBox7.TabIndex = 25;
             // 
             // label24
@@ -2769,16 +2778,15 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.Black;
-            this.label25.Location = new System.Drawing.Point(6, 124);
+            this.label25.Location = new System.Drawing.Point(6, 161);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(77, 17);
+            this.label25.Size = new System.Drawing.Size(0, 17);
             this.label25.TabIndex = 22;
-            this.label25.Text = "Database: ";
             // 
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(121, 185);
+            this.linkLabel3.Location = new System.Drawing.Point(121, 222);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(59, 14);
             this.linkLabel3.TabIndex = 21;
@@ -2793,9 +2801,9 @@
             this.comboBox2.DisplayMember = "code";
             this.comboBox2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(93, 45);
+            this.comboBox2.Location = new System.Drawing.Point(11, 45);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(299, 24);
+            this.comboBox2.Size = new System.Drawing.Size(297, 24);
             this.comboBox2.TabIndex = 20;
             this.comboBox2.ValueMember = "code";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
@@ -2811,7 +2819,7 @@
             this.groupControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupControl1.Location = new System.Drawing.Point(0, 0);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(1036, 49);
+            this.groupControl1.Size = new System.Drawing.Size(1055, 49);
             this.groupControl1.TabIndex = 0;
             this.groupControl1.Text = "Change Config Source DEV";
             this.groupControl1.CustomButtonClick += new DevExpress.XtraBars.Docking2010.BaseButtonEventHandler(this.groupControl1_CustomButtonClick);
@@ -2824,7 +2832,7 @@
             this.navigationPage7.Controls.Add(this.panelControl4);
             this.navigationPage7.Name = "navigationPage7";
             this.navigationPage7.PageText = "REPORT";
-            this.navigationPage7.Size = new System.Drawing.Size(1036, 506);
+            this.navigationPage7.Size = new System.Drawing.Size(1055, 506);
             // 
             // gridControl7
             // 
@@ -2832,12 +2840,12 @@
             this.gridControl7.EmbeddedNavigator.Buttons.CancelEdit.Enabled = false;
             this.gridControl7.EmbeddedNavigator.Buttons.Edit.Enabled = false;
             this.gridControl7.EmbeddedNavigator.Buttons.Edit.Visible = false;
-            this.gridControl7.Location = new System.Drawing.Point(0, 55);
+            this.gridControl7.Location = new System.Drawing.Point(0, 79);
             this.gridControl7.MainView = this.gridView7;
             this.gridControl7.Name = "gridControl7";
             this.gridControl7.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit7});
-            this.gridControl7.Size = new System.Drawing.Size(1036, 362);
+            this.gridControl7.Size = new System.Drawing.Size(1055, 338);
             this.gridControl7.TabIndex = 5;
             this.gridControl7.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView7});
@@ -2878,7 +2886,7 @@
             this.panelControl5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelControl5.Location = new System.Drawing.Point(0, 417);
             this.panelControl5.Name = "panelControl5";
-            this.panelControl5.Size = new System.Drawing.Size(1036, 89);
+            this.panelControl5.Size = new System.Drawing.Size(1055, 89);
             this.panelControl5.TabIndex = 4;
             // 
             // textBox3
@@ -2888,7 +2896,7 @@
             this.textBox3.Location = new System.Drawing.Point(57, 2);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(977, 85);
+            this.textBox3.Size = new System.Drawing.Size(996, 85);
             this.textBox3.TabIndex = 17;
             // 
             // simpleButton3
@@ -2904,6 +2912,8 @@
             // 
             // panelControl4
             // 
+            this.panelControl4.Controls.Add(this.label30);
+            this.panelControl4.Controls.Add(this.comboBox6);
             this.panelControl4.Controls.Add(this.radioGroup3);
             this.panelControl4.Controls.Add(this.linkLabel1);
             this.panelControl4.Controls.Add(this.textEdit2);
@@ -2911,12 +2921,35 @@
             this.panelControl4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl4.Location = new System.Drawing.Point(0, 0);
             this.panelControl4.Name = "panelControl4";
-            this.panelControl4.Size = new System.Drawing.Size(1036, 55);
+            this.panelControl4.Size = new System.Drawing.Size(1055, 79);
             this.panelControl4.TabIndex = 0;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(3, 19);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(102, 18);
+            this.label30.TabIndex = 31;
+            this.label30.Text = "Template Site:";
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBox6.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox6.DisplayMember = "code";
+            this.comboBox6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Location = new System.Drawing.Point(111, 16);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(145, 24);
+            this.comboBox6.TabIndex = 30;
+            this.comboBox6.ValueMember = "code";
             // 
             // radioGroup3
             // 
-            this.radioGroup3.Location = new System.Drawing.Point(344, 14);
+            this.radioGroup3.Location = new System.Drawing.Point(517, 15);
             this.radioGroup3.Name = "radioGroup3";
             this.radioGroup3.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
             this.radioGroup3.Properties.Appearance.Options.UseBackColor = true;
@@ -2933,23 +2966,25 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(497, 19);
+            this.linkLabel1.Location = new System.Drawing.Point(259, 51);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(0, 16);
+            this.linkLabel1.Size = new System.Drawing.Size(386, 16);
             this.linkLabel1.TabIndex = 25;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // textEdit2
             // 
             this.textEdit2.EditValue = "";
-            this.textEdit2.Location = new System.Drawing.Point(89, 17);
+            this.textEdit2.Location = new System.Drawing.Point(262, 18);
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Size = new System.Drawing.Size(249, 20);
             this.textEdit2.TabIndex = 7;
             // 
             // simpleButton2
             // 
-            this.simpleButton2.Location = new System.Drawing.Point(5, 5);
+            this.simpleButton2.Location = new System.Drawing.Point(676, 6);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(78, 44);
             this.simpleButton2.TabIndex = 6;
@@ -3764,7 +3799,7 @@
             this.navigationPage11.Controls.Add(this.flowLayoutPanel2);
             this.navigationPage11.Name = "navigationPage11";
             this.navigationPage11.PageText = "DANH MỤC";
-            this.navigationPage11.Size = new System.Drawing.Size(1036, 506);
+            this.navigationPage11.Size = new System.Drawing.Size(1055, 506);
             // 
             // gridControl18
             // 
@@ -3778,7 +3813,7 @@
             this.gridControl18.Name = "gridControl18";
             this.gridControl18.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit18});
-            this.gridControl18.Size = new System.Drawing.Size(1036, 442);
+            this.gridControl18.Size = new System.Drawing.Size(1055, 442);
             this.gridControl18.TabIndex = 31;
             this.gridControl18.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView18});
@@ -3818,7 +3853,7 @@
             this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel2.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1036, 64);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(1055, 64);
             this.flowLayoutPanel2.TabIndex = 30;
             // 
             // radioGroup2
@@ -3878,21 +3913,21 @@
             this.navigationPage9.Caption = " ";
             this.navigationPage9.Controls.Add(this.tabPane3);
             customHeaderButtonImageOptions46.ImageUri.Uri = "ExportToXML";
-            serializableAppearanceObject50.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject50.Options.UseFont = true;
+            serializableAppearanceObject54.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject54.Options.UseFont = true;
             customHeaderButtonImageOptions47.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions47.Image")));
-            serializableAppearanceObject51.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject51.Options.UseFont = true;
+            serializableAppearanceObject55.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject55.Options.UseFont = true;
             customHeaderButtonImageOptions48.Image = ((System.Drawing.Image)(resources.GetObject("customHeaderButtonImageOptions48.Image")));
-            serializableAppearanceObject52.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            serializableAppearanceObject52.Options.UseFont = true;
+            serializableAppearanceObject56.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            serializableAppearanceObject56.Options.UseFont = true;
             this.navigationPage9.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("GET DATA", true, customHeaderButtonImageOptions46, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject50, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("GET CHECKIN", true, customHeaderButtonImageOptions47, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject51, null, -1),
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("XML TRƯỚC RA VIỆN", true, customHeaderButtonImageOptions48, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject52, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("GET DATA", true, customHeaderButtonImageOptions46, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject54, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("GET CHECKIN", true, customHeaderButtonImageOptions47, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject55, null, -1),
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("XML TRƯỚC RA VIỆN", true, customHeaderButtonImageOptions48, DevExpress.XtraBars.Docking2010.ButtonStyle.PushButton, "", -1, true, null, true, false, true, serializableAppearanceObject56, null, -1)});
             this.navigationPage9.Name = "navigationPage9";
             this.navigationPage9.PageText = "XML 130";
-            this.navigationPage9.Size = new System.Drawing.Size(1036, 476);
+            this.navigationPage9.Size = new System.Drawing.Size(1055, 476);
             this.navigationPage9.CustomButtonClick += new DevExpress.XtraBars.Docking2010.ButtonEventHandler(this.navigationPage9_CustomButtonClick);
             // 
             // tabPane3
@@ -3925,9 +3960,9 @@
             this.tabNavigationPage11,
             this.tabNavigationPage13,
             this.tabNavigationPage14});
-            this.tabPane3.RegularSize = new System.Drawing.Size(1036, 476);
+            this.tabPane3.RegularSize = new System.Drawing.Size(1055, 476);
             this.tabPane3.SelectedPage = this.tabNavigationPage8;
-            this.tabPane3.Size = new System.Drawing.Size(1036, 476);
+            this.tabPane3.Size = new System.Drawing.Size(1055, 476);
             this.tabPane3.TabIndex = 19;
             // 
             // tabNavigationPage8
@@ -3939,7 +3974,7 @@
             this.tabNavigationPage8.Name = "tabNavigationPage8";
             this.tabNavigationPage8.Properties.AppearanceCaption.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabNavigationPage8.Properties.AppearanceCaption.Options.UseFont = true;
-            this.tabNavigationPage8.Size = new System.Drawing.Size(1036, 444);
+            this.tabNavigationPage8.Size = new System.Drawing.Size(1055, 444);
             // 
             // gridControl34
             // 
@@ -3952,7 +3987,7 @@
             this.gridControl34.Name = "gridControl34";
             this.gridControl34.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit33});
-            this.gridControl34.Size = new System.Drawing.Size(1036, 231);
+            this.gridControl34.Size = new System.Drawing.Size(1055, 231);
             this.gridControl34.TabIndex = 6;
             this.gridControl34.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView35});
@@ -3992,7 +4027,7 @@
             this.webBrowser6.Location = new System.Drawing.Point(0, 369);
             this.webBrowser6.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser6.Name = "webBrowser6";
-            this.webBrowser6.Size = new System.Drawing.Size(1036, 75);
+            this.webBrowser6.Size = new System.Drawing.Size(1055, 75);
             this.webBrowser6.TabIndex = 5;
             // 
             // gridControl15
@@ -4006,7 +4041,7 @@
             this.gridControl15.Name = "gridControl15";
             this.gridControl15.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit15});
-            this.gridControl15.Size = new System.Drawing.Size(1036, 138);
+            this.gridControl15.Size = new System.Drawing.Size(1055, 138);
             this.gridControl15.TabIndex = 4;
             this.gridControl15.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView15});
@@ -5289,7 +5324,7 @@
             this.navigationPage10.Controls.Add(this.panelControl10);
             this.navigationPage10.Name = "navigationPage10";
             this.navigationPage10.PageText = "CHỨNG TỪ";
-            this.navigationPage10.Size = new System.Drawing.Size(1036, 506);
+            this.navigationPage10.Size = new System.Drawing.Size(1055, 506);
             // 
             // panelControl10
             // 
@@ -5299,7 +5334,7 @@
             this.panelControl10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl10.Location = new System.Drawing.Point(0, 0);
             this.panelControl10.Name = "panelControl10";
-            this.panelControl10.Size = new System.Drawing.Size(1036, 506);
+            this.panelControl10.Size = new System.Drawing.Size(1055, 506);
             this.panelControl10.TabIndex = 1;
             // 
             // gridControl26
@@ -5313,7 +5348,7 @@
             this.gridControl26.Name = "gridControl26";
             this.gridControl26.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit26});
-            this.gridControl26.Size = new System.Drawing.Size(1032, 342);
+            this.gridControl26.Size = new System.Drawing.Size(1051, 342);
             this.gridControl26.TabIndex = 37;
             this.gridControl26.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView26});
@@ -5360,7 +5395,7 @@
             this.gridControl30.Name = "gridControl30";
             this.gridControl30.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit30});
-            this.gridControl30.Size = new System.Drawing.Size(1032, 125);
+            this.gridControl30.Size = new System.Drawing.Size(1051, 125);
             this.gridControl30.TabIndex = 36;
             this.gridControl30.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView31});
@@ -5409,8 +5444,21 @@
             this.panelControl11.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl11.Location = new System.Drawing.Point(2, 2);
             this.panelControl11.Name = "panelControl11";
-            this.panelControl11.Size = new System.Drawing.Size(1032, 35);
+            this.panelControl11.Size = new System.Drawing.Size(1051, 35);
             this.panelControl11.TabIndex = 34;
+            // 
+            // simpleButton10
+            // 
+            this.simpleButton10.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton10.Appearance.Options.UseFont = true;
+            this.simpleButton10.Location = new System.Drawing.Point(736, 2);
+            this.simpleButton10.Name = "simpleButton10";
+            this.simpleButton10.Size = new System.Drawing.Size(126, 29);
+            this.simpleButton10.TabIndex = 51;
+            this.simpleButton10.Text = "Chẩn đoán chứa kí tự \"?\"";
+            this.simpleButton10.ToolTip = "Click vào đây khi lưu phiếu lĩnh/xuất/nhập nội bộ không thành công";
+            this.simpleButton10.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
+            this.simpleButton10.Click += new System.EventHandler(this.simpleButton10_Click);
             // 
             // button6
             // 
@@ -5499,7 +5547,7 @@
             this.navigationPage12.Controls.Add(this.panelControl8);
             this.navigationPage12.Name = "navigationPage12";
             this.navigationPage12.PageText = "TỒN KHO";
-            this.navigationPage12.Size = new System.Drawing.Size(1036, 506);
+            this.navigationPage12.Size = new System.Drawing.Size(1055, 506);
             // 
             // xtraTabControl1
             // 
@@ -5507,7 +5555,7 @@
             this.xtraTabControl1.Location = new System.Drawing.Point(0, 48);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
-            this.xtraTabControl1.Size = new System.Drawing.Size(1036, 458);
+            this.xtraTabControl1.Size = new System.Drawing.Size(1055, 458);
             this.xtraTabControl1.TabIndex = 36;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
@@ -5520,7 +5568,7 @@
             this.xtraTabPage1.Controls.Add(this.gridControl32);
             this.xtraTabPage1.Controls.Add(this.gridControl25);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(1034, 428);
+            this.xtraTabPage1.Size = new System.Drawing.Size(1053, 428);
             this.xtraTabPage1.Text = "Tồn kho";
             // 
             // gridControl32
@@ -5534,7 +5582,7 @@
             this.gridControl32.Name = "gridControl32";
             this.gridControl32.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit28});
-            this.gridControl32.Size = new System.Drawing.Size(1034, 299);
+            this.gridControl32.Size = new System.Drawing.Size(1053, 299);
             this.gridControl32.TabIndex = 13;
             this.gridControl32.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView33});
@@ -5581,7 +5629,7 @@
             this.gridControl25.Name = "gridControl25";
             this.gridControl25.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit25});
-            this.gridControl25.Size = new System.Drawing.Size(1034, 129);
+            this.gridControl25.Size = new System.Drawing.Size(1053, 129);
             this.gridControl25.TabIndex = 11;
             this.gridControl25.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView25});
@@ -5621,7 +5669,7 @@
             this.xtraTabPage2.Controls.Add(this.gridControl28);
             this.xtraTabPage2.Controls.Add(this.gridControl6);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(1034, 428);
+            this.xtraTabPage2.Size = new System.Drawing.Size(1053, 428);
             this.xtraTabPage2.Text = "Kiểm tra lệch";
             // 
             // gridControl28
@@ -5635,7 +5683,7 @@
             this.gridControl28.Name = "gridControl28";
             this.gridControl28.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit27});
-            this.gridControl28.Size = new System.Drawing.Size(1034, 263);
+            this.gridControl28.Size = new System.Drawing.Size(1053, 263);
             this.gridControl28.TabIndex = 43;
             this.gridControl28.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView28});
@@ -5681,7 +5729,7 @@
             this.gridControl6.Name = "gridControl6";
             this.gridControl6.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit6});
-            this.gridControl6.Size = new System.Drawing.Size(1034, 165);
+            this.gridControl6.Size = new System.Drawing.Size(1053, 165);
             this.gridControl6.TabIndex = 42;
             this.gridControl6.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView6});
@@ -5718,7 +5766,7 @@
             // 
             this.xtraTabPage3.Controls.Add(this.panel1);
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(1034, 428);
+            this.xtraTabPage3.Size = new System.Drawing.Size(1053, 428);
             this.xtraTabPage3.Text = "Chi tiết chứng từ";
             // 
             // panel1
@@ -5728,7 +5776,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1034, 428);
+            this.panel1.Size = new System.Drawing.Size(1053, 428);
             this.panel1.TabIndex = 0;
             // 
             // gridControl33
@@ -5742,7 +5790,7 @@
             this.gridControl33.Name = "gridControl33";
             this.gridControl33.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit32});
-            this.gridControl33.Size = new System.Drawing.Size(1034, 390);
+            this.gridControl33.Size = new System.Drawing.Size(1053, 390);
             this.gridControl33.TabIndex = 14;
             this.gridControl33.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView34});
@@ -5885,7 +5933,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1034, 38);
+            this.panel3.Size = new System.Drawing.Size(1053, 38);
             this.panel3.TabIndex = 0;
             // 
             // panel4
@@ -5948,7 +5996,7 @@
             // xtraTabPage4
             // 
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(1034, 428);
+            this.xtraTabPage4.Size = new System.Drawing.Size(1053, 428);
             this.xtraTabPage4.Text = "Số dư đầu kỳ";
             // 
             // panelControl8
@@ -5966,7 +6014,7 @@
             this.panelControl8.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl8.Location = new System.Drawing.Point(0, 0);
             this.panelControl8.Name = "panelControl8";
-            this.panelControl8.Size = new System.Drawing.Size(1036, 48);
+            this.panelControl8.Size = new System.Drawing.Size(1055, 48);
             this.panelControl8.TabIndex = 35;
             // 
             // textEdit4
@@ -6135,7 +6183,7 @@
             this.navigationPage13.Controls.Add(this.panelControl9);
             this.navigationPage13.Name = "navigationPage13";
             this.navigationPage13.PageText = "CHECK";
-            this.navigationPage13.Size = new System.Drawing.Size(1036, 506);
+            this.navigationPage13.Size = new System.Drawing.Size(1055, 506);
             // 
             // gridControl31
             // 
@@ -6148,7 +6196,7 @@
             this.gridControl31.Name = "gridControl31";
             this.gridControl31.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemCheckEdit31});
-            this.gridControl31.Size = new System.Drawing.Size(1036, 451);
+            this.gridControl31.Size = new System.Drawing.Size(1055, 451);
             this.gridControl31.TabIndex = 6;
             this.gridControl31.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView32});
@@ -6183,6 +6231,7 @@
             // 
             // panelControl9
             // 
+            this.panelControl9.Controls.Add(this.button17);
             this.panelControl9.Controls.Add(this.button11);
             this.panelControl9.Controls.Add(this.button9);
             this.panelControl9.Controls.Add(this.button7);
@@ -6192,7 +6241,7 @@
             this.panelControl9.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl9.Location = new System.Drawing.Point(0, 0);
             this.panelControl9.Name = "panelControl9";
-            this.panelControl9.Size = new System.Drawing.Size(1036, 55);
+            this.panelControl9.Size = new System.Drawing.Size(1055, 55);
             this.panelControl9.TabIndex = 1;
             // 
             // button11
@@ -6258,82 +6307,6 @@
             this.textEdit5.Size = new System.Drawing.Size(146, 20);
             this.textEdit5.TabIndex = 7;
             // 
-            // navigationPage14
-            // 
-            this.navigationPage14.Caption = " ";
-            this.navigationPage14.Controls.Add(this.gridControl35);
-            this.navigationPage14.Controls.Add(this.stepProgressBar1);
-            this.navigationPage14.Name = "navigationPage14";
-            this.navigationPage14.PageText = "navigationPage14";
-            this.navigationPage14.Size = new System.Drawing.Size(1036, 506);
-            // 
-            // gridControl35
-            // 
-            this.gridControl35.Cursor = System.Windows.Forms.Cursors.Default;
-            this.gridControl35.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl35.EmbeddedNavigator.Buttons.CancelEdit.Enabled = false;
-            this.gridControl35.EmbeddedNavigator.Buttons.Edit.Enabled = false;
-            this.gridControl35.EmbeddedNavigator.Buttons.Edit.Visible = false;
-            this.gridControl35.Location = new System.Drawing.Point(463, 0);
-            this.gridControl35.MainView = this.gridView51;
-            this.gridControl35.Name = "gridControl35";
-            this.gridControl35.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
-            this.repositoryItemCheckEdit34});
-            this.gridControl35.Size = new System.Drawing.Size(573, 506);
-            this.gridControl35.TabIndex = 21;
-            this.gridControl35.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView51,
-            this.gridView52});
-            // 
-            // gridView51
-            // 
-            this.gridView51.Appearance.SelectedRow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.gridView51.Appearance.SelectedRow.ForeColor = System.Drawing.Color.Red;
-            this.gridView51.Appearance.SelectedRow.Options.UseBackColor = true;
-            this.gridView51.Appearance.SelectedRow.Options.UseForeColor = true;
-            this.gridView51.CustomizationFormBounds = new System.Drawing.Rectangle(612, 137, 264, 300);
-            this.gridView51.GridControl = this.gridControl35;
-            this.gridView51.IndicatorWidth = 35;
-            this.gridView51.Name = "gridView51";
-            this.gridView51.OptionsBehavior.AlignGroupSummaryInGroupRow = DevExpress.Utils.DefaultBoolean.False;
-            this.gridView51.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.False;
-            this.gridView51.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.False;
-            this.gridView51.OptionsBehavior.AutoExpandAllGroups = true;
-            this.gridView51.OptionsBehavior.Editable = false;
-            this.gridView51.OptionsBehavior.ReadOnly = true;
-            this.gridView51.OptionsClipboard.CopyColumnHeaders = DevExpress.Utils.DefaultBoolean.False;
-            this.gridView51.OptionsCustomization.UseAdvancedCustomizationForm = DevExpress.Utils.DefaultBoolean.False;
-            this.gridView51.OptionsEditForm.ActionOnModifiedRowChange = DevExpress.XtraGrid.Views.Grid.EditFormModifiedAction.Nothing;
-            this.gridView51.OptionsSelection.MultiSelect = true;
-            this.gridView51.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CellSelect;
-            this.gridView51.OptionsSelection.ResetSelectionClickOutsideCheckboxSelector = true;
-            this.gridView51.OptionsView.BestFitMode = DevExpress.XtraGrid.Views.Grid.GridBestFitMode.Full;
-            this.gridView51.OptionsView.ShowGroupPanel = false;
-            // 
-            // repositoryItemCheckEdit34
-            // 
-            this.repositoryItemCheckEdit34.AutoHeight = false;
-            this.repositoryItemCheckEdit34.Name = "repositoryItemCheckEdit34";
-            // 
-            // gridView52
-            // 
-            this.gridView52.GridControl = this.gridControl35;
-            this.gridView52.Name = "gridView52";
-            // 
-            // stepProgressBar1
-            // 
-            this.stepProgressBar1.AllowHtmlText = DevExpress.Utils.DefaultBoolean.True;
-            this.stepProgressBar1.Appearances.ItemAppearance.ContentBlockAppearance.Description.Options.UseTextOptions = true;
-            this.stepProgressBar1.Appearances.ItemAppearance.ContentBlockAppearance.Description.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
-            this.stepProgressBar1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.stepProgressBar1.ItemOptions.Indicator.ActiveStateImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("stepProgressBar1.ItemOptions.Indicator.ActiveStateImageOptions.SvgImage")));
-            this.stepProgressBar1.Location = new System.Drawing.Point(0, 0);
-            this.stepProgressBar1.Name = "stepProgressBar1";
-            this.stepProgressBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.stepProgressBar1.Size = new System.Drawing.Size(463, 506);
-            this.stepProgressBar1.TabIndex = 0;
-            this.stepProgressBar1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.stepProgressBar1_MouseClick);
-            // 
             // panelControl3
             // 
             this.panelControl3.Controls.Add(this.gridControl1);
@@ -6391,7 +6364,6 @@
             // 
             // panelControl2
             // 
-            this.panelControl2.Controls.Add(this.pictureBox1);
             this.panelControl2.Controls.Add(this.radioGroup1);
             this.panelControl2.Controls.Add(this.button16);
             this.panelControl2.Controls.Add(this.button15);
@@ -6413,18 +6385,6 @@
             this.panelControl2.Name = "panelControl2";
             this.panelControl2.Size = new System.Drawing.Size(1162, 39);
             this.panelControl2.TabIndex = 1;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1129, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(31, 35);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // radioGroup1
             // 
@@ -6633,18 +6593,16 @@
             this.gridSplitContainer1.Size = new System.Drawing.Size(400, 400);
             this.gridSplitContainer1.TabIndex = 0;
             // 
-            // simpleButton10
+            // button17
             // 
-            this.simpleButton10.Appearance.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton10.Appearance.Options.UseFont = true;
-            this.simpleButton10.Location = new System.Drawing.Point(736, 2);
-            this.simpleButton10.Name = "simpleButton10";
-            this.simpleButton10.Size = new System.Drawing.Size(126, 29);
-            this.simpleButton10.TabIndex = 51;
-            this.simpleButton10.Text = "Chẩn đoán chứa kí tự \"?\"";
-            this.simpleButton10.ToolTip = "Click vào đây khi lưu phiếu lĩnh/xuất/nhập nội bộ không thành công";
-            this.simpleButton10.ToolTipIconType = DevExpress.Utils.ToolTipIconType.Information;
-            this.simpleButton10.Click += new System.EventHandler(this.simpleButton10_Click);
+            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.Location = new System.Drawing.Point(428, 4);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(69, 46);
+            this.button17.TabIndex = 30;
+            this.button17.Text = "VietinBank";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // XtraForm1
             // 
@@ -6657,10 +6615,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Support";
             this.Load += new System.EventHandler(this.XtraForm1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
-            this.navigationPane1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ckVTB)).EndInit();
+            this.ckVTB.ResumeLayout(false);
             this.navigationPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
@@ -6709,13 +6669,9 @@
             this.groupControl12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl29)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit29)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
             this.groupControl2.ResumeLayout(false);
             this.groupControl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.toggleSwitch3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.navigationPage7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl7)).EndInit();
@@ -6899,12 +6855,6 @@
             this.panelControl9.ResumeLayout(false);
             this.panelControl9.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit5.Properties)).EndInit();
-            this.navigationPage14.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemCheckEdit34)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView52)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.stepProgressBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
@@ -6913,7 +6863,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             this.panelControl2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
@@ -6960,8 +6909,7 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit2;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView29;
         private DevExpress.XtraGrid.GridSplitContainer gridSplitContainer1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private DevExpress.XtraBars.Navigation.NavigationPane navigationPane1;
+        private DevExpress.XtraBars.Navigation.NavigationPane ckVTB;
         private DevExpress.XtraBars.Navigation.NavigationPage navigationPage1;
         private DevExpress.XtraGrid.GridControl gridControl3;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView3;
@@ -7072,25 +7020,18 @@
         private DevExpress.XtraGrid.Columns.GridColumn KEY;
         private DevExpress.XtraGrid.Columns.GridColumn TEXT;
         private DevExpress.XtraGrid.Columns.GridColumn RUN;
-        private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit1;
         private DevExpress.XtraGrid.Columns.GridColumn CONF;
-        private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit3;
         private DevExpress.XtraGrid.Columns.GridColumn ENVI;
-        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit29;
         private DevExpress.XtraEditors.GroupControl groupControl2;
-        private DevExpress.XtraEditors.ToggleSwitch toggleSwitch3;
         private System.Windows.Forms.Button button49;
-        private System.Windows.Forms.Button button40;
         private System.Windows.Forms.Button button41;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.Button button39;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Button button37;
         private System.Windows.Forms.Button button38;
         private System.Windows.Forms.Button button35;
         private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Button button34;
         private System.Windows.Forms.Button button33;
         private System.Windows.Forms.Button button32;
@@ -7098,8 +7039,6 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label24;
@@ -7385,8 +7324,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.LinkLabel linkLabel4;
         private DevExpress.XtraEditors.TextEdit textEdit5;
-        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage14;
-        private DevExpress.XtraEditors.StepProgressBar stepProgressBar1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView36;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView37;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView38;
@@ -7402,10 +7339,21 @@
         private DevExpress.XtraGrid.Views.Grid.GridView gridView48;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView49;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView50;
-        private DevExpress.XtraGrid.GridControl gridControl35;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView51;
-        private DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit repositoryItemCheckEdit34;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView52;
         private DevExpress.XtraEditors.SimpleButton simpleButton10;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Label label21;
+        private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit1;
+        private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit3;
+        private System.Windows.Forms.Button button17;
     }
 }

@@ -1,0 +1,16 @@
+[
+  {
+    "CLIENT_APPNAME": "HOANMY_CUULONG",
+    "MABENHVIEN": "92088",
+    "TENBENHVIEN": "CỬU LONG PRO",
+    "IP_DATABASE": "10.8.17.81",
+    "IP_REMOTE": "10.8.17.42",
+    "IP_API": "1.1.1.1",
+    "IP_ELASTIC": "2.2.2.2",
+    "ELASTICI_INDEXPREFIX": "TRUNGVT",
+    "NOTE": "NOTE",
+    "LINK_REPORT": "http://118.68.170.201:6060/Resources/Reports/92088/",
+    "LINK_DOWNAPP": "",
+    "IS_PRODUCTION": true
+  }
+]

@@ -27,9 +27,9 @@ namespace QuickSupport_v2
             this._Hospitals.AllowNew = true;
             this._Hospitals.AllowEdit = true;
             gridControl1.DataSource = _Hospitals;
-            gridView1.Columns["GROUP"].Group(); 
-            gridView1.Columns["BENHVIEN_ID"].Visible= false;
-            gridView1.Columns["BENHVIEN_ID"].Group();
+            //gridView1.Columns["GROUP"].Group(); 
+            //gridView1.Columns["BENHVIEN_ID"].Visible= false;
+            //gridView1.Columns["BENHVIEN_ID"].Group();
         }
         public void SaveConfig()
         {

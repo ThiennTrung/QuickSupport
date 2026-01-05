@@ -143,8 +143,9 @@
     <Reference Include="DevExpress.XtraTreeMap.v22.2.UI, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraVerticalGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraWizard.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="FPT.Framework.Common">
-      <HintPath>..\..\FPT.Framework.Common.dll</HintPath>
+    <Reference Include="FPT.Framework.Common, Version=1.0.8718.23466, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OneDrive\WORK\DLL FPT\DLL\FPT.Framework.Common.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=2.0.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.15\lib\net45\log4net.dll</HintPath>
@@ -226,6 +227,9 @@
       <DependentUpon>XtraForm1.cs</DependentUpon>
     </Compile>
     <None Include="App.config" />
+    <None Include="FileData\Hospitals.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Resources\leftright_32x32.png" />
     <None Include="Resources\saveto_32x32.png" />
     <None Include="Resources\icon.bmp" />

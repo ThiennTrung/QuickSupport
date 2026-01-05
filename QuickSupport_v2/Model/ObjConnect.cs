@@ -16,4 +16,21 @@
             this.Benhvien_id = Benhvien_id;
         }
     }
+    public class HospitalIP
+    {
+        public string CLIENT_APPNAME { get; set; }
+        public string MABENHVIEN { get; set; }
+        public string TENBENHVIEN { get; set; }
+        public string IP_DATABASE { get; set; }
+        public string IP_REMOTE { get; set; }
+        public string IP_API { get; set; }
+        public string IP_ELASTIC { get; set; }
+        public string ELASTICI_INDEXPREFIX { get; set; }
+        public string NOTE { get; set; }
+        public string LINK_REPORT { get; set; }
+        public string LINK_DOWNAPP { get; set; }
+        //public string LINK_RUNAPP { get; set; }
+        public bool IS_PRODUCTION { get; set; }
+
+    }
 }

@@ -1,0 +1,4 @@
+﻿2024-12-30 13:00:25,048 [1] ERROR QuickSupport_v2.Program - Value cannot be null.
+Parameter name: path2
+2024-12-30 13:00:45,726 [1] ERROR QuickSupport_v2.Program - Value cannot be null.
+Parameter name: path2

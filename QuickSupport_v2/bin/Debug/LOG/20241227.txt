@@ -1,0 +1,7 @@
+﻿2024-12-27 14:23:13,885 [1] ERROR QuickSupport_v2.Program - Object reference not set to an instance of an object.
+2024-12-27 14:31:39,600 [1] ERROR QuickSupport_v2.Program - Object reference not set to an instance of an object.
+2024-12-27 14:50:08,708 [1] ERROR QuickSupport_v2.Program - Complex DataBinding accepts as a data source either an IList or an IListSource.
+2024-12-27 14:50:11,960 [1] ERROR QuickSupport_v2.Program - Complex DataBinding accepts as a data source either an IList or an IListSource.
+2024-12-27 14:51:15,221 [1] ERROR QuickSupport_v2.Program - Complex DataBinding accepts as a data source either an IList or an IListSource.
+2024-12-27 14:51:19,997 [1] ERROR QuickSupport_v2.Program - Complex DataBinding accepts as a data source either an IList or an IListSource.
+2024-12-27 14:52:24,940 [1] ERROR QuickSupport_v2.Program - Complex DataBinding accepts as a data source either an IList or an IListSource.

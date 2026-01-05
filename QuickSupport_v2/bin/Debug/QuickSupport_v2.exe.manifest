@@ -511,14 +511,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuickSupport_v2.exe" size="449024">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuickSupport_v2.exe" size="439808">
       <assemblyIdentity name="QuickSupport_v2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5cixKYtA1o0lyGEH7b1Jpj+cRe2e32pazRLABsVlR0k=</dsig:DigestValue>
+        <dsig:DigestValue>pFP9LeHJD8N1LEwPuVE1mSSnaaGCmseclmnDj9fXLrA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -552,13 +552,13 @@
       <dsig:DigestValue>xbrJ1PV74xcMGYHVKj1bzFYwwibUPZNYU0b8A3109uQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="QuickSupport_v2.exe.config" size="17965">
+  <file name="QuickSupport_v2.exe.config" size="12854">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ZkADRzn57Q0ewiNFMerwKWsdeMcCC6fZhiVrdPqv5sM=</dsig:DigestValue>
+      <dsig:DigestValue>aWBToe5rqT+fzZ/c1P8iZkK5dLMJr34NfyM3G0QZl3g=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
